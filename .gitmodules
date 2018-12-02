@@ -1,0 +1,3 @@
+[submodule "sw/CMSIS"]
+	path = sw/CMSIS
+	url = https://github.com/ARM-software/CMSIS.git
