@@ -1,0 +1,14 @@
+
+dx - disable channel x
+ex - enable channel x
+rx - reset counter for channel x
+
+Aa - enable/disable out 0
+Ss -//-
+Dd -//-
+Ff -//-
+
+0 USB XX.XXX V, YYYY.YY mA, ZZZZZZ mAh | Out 0 : ON
+1 IN1 XX.XXX V, YYYY.YY mA, ZZZZZZ mAh | Out 1 : OFF
+2 IN2 XX.XXX V, YYYY.YY mA, ZZZZZZ mAh | Out 2 : OFF
+3 IN3 --.--- V, ----.-- mA, ------ mAh | Out 3 : OFF
