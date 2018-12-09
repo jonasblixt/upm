@@ -2,10 +2,17 @@
 
 This device monitors current and voltage for USB powered devices.
 
+# Hardware
 ![](https://github.com/jonpe960/upm/raw/master/doc/photo.jpg)
-Assembled PCB
+Assembled PCB 
 
+The PCB is a four layer board, manufactured by OSH Park. The boards can
+ be ordered ![here](https://oshpark.com/shared_projects/uE5lZDkP)
+
+# System description
 ![](https://github.com/jonpe960/upm/raw/master/doc/system_diagram.png)
+
+
 The device has a built in, two port, USB hub. One of the down stream ports'
 connects to the USB A connector and the other down stream port is connected to
 the microcontroller.
@@ -18,9 +25,18 @@ It is possible to control the output VBUS with the on board power switch, which
 also has built in short circuit protection. Three auxillary, open collector,
 outputs are available on pin header.
 
+# Ncurses TUI
+
 ![](https://github.com/jonpe960/upm/raw/master/doc/screenshot.png)
 
 The ncurses based TUI, displaying voltage, current and energy usage. 
+Outputs can be controled from the TUI:
+ - A/a VBUS on/off
+ - S/s out1 on/off
+ - D/d out2 on/off
+ - F/f out3 on/off
+ - r Reset energy counters
+
 
 # Intended usage
 
