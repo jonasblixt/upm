@@ -1,3 +1,12 @@
+/**
+ * UPM
+ *
+ * Copyright (C) 2018 Jonas Persson <jonpe960@gmail.com>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ *
+ */
+
 #ifndef __I2C_H__
 #define __I2C_H__
 
