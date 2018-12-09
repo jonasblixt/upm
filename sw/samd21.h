@@ -102,6 +102,7 @@ static inline uint8_t read8(uint32_t reg)
 
 #define GCLK_ID_SERCOMx_SLOW 0x13
 #define GCLK_ID_SERCOM1_CORE 0x15
+#define GCLK_ID_USB          0x06
 
 /* SYSCTRL */
 
@@ -152,33 +153,38 @@ static inline uint8_t read8(uint32_t reg)
 #define MUX_H                0x07
 #define MUX_I                0x08
 
-#define PORT_PINCFG23        (0x40+23)
-#define PORT_PINCFG24        (0x40+24)
-
-/* SERCOM / I2C Master */
-
-#define I2C_CTRLA            0x00
-#define I2C_CTRLB            0x04
-#define I2C_BAUD             0x0C
-#define I2C_DATA             0x18
-#define I2C_STATUS           0x1A
-#define I2C_SYNCBUSY         0x1C
-#define I2C_ADDR             0x24
-#define I2C_INTSET           0x16
-#define I2C_INTFLAG          0x18
-
-#define I2C_IRQ_MB           0x01
-#define I2C_IRQ_SB           0x02
-#define I2C_IRQ_ERR          0x80
+#define PIN_PA0             (1 << 0)
+#define PIN_PA1             (1 << 1)
+#define PIN_PA2             (1 << 2)
+#define PIN_PA3             (1 << 3)
+#define PIN_PA4             (1 << 4)
+#define PIN_PA5             (1 << 5)
+#define PIN_PA6             (1 << 6)
+#define PIN_PA7             (1 << 7)
+#define PIN_PA8             (1 << 8)
+#define PIN_PA9             (1 << 9)
+#define PIN_PA10            (1 << 10)
+#define PIN_PA11            (1 << 11)
+#define PIN_PA14            (1 << 14)
+#define PIN_PA15            (1 << 15)
+#define PIN_PA16            (1 << 16)
+#define PIN_PA17            (1 << 17)
+#define PIN_PA18            (1 << 18)
+#define PIN_PA19            (1 << 19)
+#define PIN_PA22            (1 << 22)
+#define PIN_PA23            (1 << 23)
+#define PIN_PA24            (1 << 24)
+#define PIN_PA25            (1 << 25)
+#define PIN_PA27            (1 << 27)
+#define PIN_PA28            (1 << 28)
+#define PIN_PA30            (1 << 30)
+#define PIN_PA31            (1 << 31)
 
 #define SERCOM1_IRQn         10
 
 /* PM */
 
 #define PM_APBCMASK          0x20
-
-
-
 
 
 

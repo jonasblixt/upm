@@ -139,7 +139,7 @@ void reset_handler(void)
                                 (0x08 << 8)); /* SRC = FDPLL96 */
 
     main();
-
+    
     while (1);
 }
 

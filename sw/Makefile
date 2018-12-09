@@ -24,7 +24,7 @@ CFLAGS  += -DVERSION=\"$(GIT_VERSION)\"
 
 LDFLAGS =
 ASM_SRCS = 
-C_SRCS   = main.c init.c usb.c i2c.c
+C_SRCS   = main.c init.c usb.c i2c.c string.c pac193x.c
 
 LDFLAGS += -Wl,-Tlink.lds -Wl,--build-id=none $(CFLAGS)
 

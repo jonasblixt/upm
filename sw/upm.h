@@ -1,32 +1,23 @@
 #ifndef __UPM_H__
 #define __UPM_H__
 
-#define PIN_SDA            (1 << 0)
-#define PIN_SCL            (1 << 1)
-#define PIN_PAC_ALERT_N    (1 << 2)
-#define PIN_PACPWRDN_N     (1 << 3)
-#define PIN_DUT_USB_EN     (1 << 4)
-#define PIN_DUT_USB_FLAG_N (1 << 5)
-#define PIN_OUT1_EN        (1 << 6)
-#define PIN_OUT2_EN        (1 << 7)
-#define PIN_OUT3_EN        (1 << 8)
-#define PIN_DUT_DISCHARGE  (1 << 9)
-#define PIN_PA10           (1 << 10)
-#define PIN_PA11           (1 << 11)
-#define PIN_XTAL_IN        (1 << 14)
-#define PIN_XTAL_OUT       (1 << 15)
-#define PIN_PA16           (1 << 16)
-#define PIN_PA17           (1 << 17)
-#define PIN_PA18           (1 << 18)
-#define PIN_PA19           (1 << 19)
-#define PIN_PA22           (1 << 22)
-#define PIN_PA23           (1 << 23)
-#define PIN_USB_DM         (1 << 24)
-#define PIN_USB_DP         (1 << 25)
-#define PIN_PA27           (1 << 27)
-#define PIN_SWO            (1 << 28)
-#define PIN_SWCLK          (1 << 30)
-#define PIN_SWDIO          (1 << 31)
+#define PIN_SDA            PIN_PA0
+#define PIN_SCL            PIN_PA1
+#define PIN_PAC_ALERT_N    PIN_PA2
+#define PIN_PACPWRDN_N     PIN_PA3
+#define PIN_DUT_USB_EN     PIN_PA4
+#define PIN_DUT_USB_FLAG_N PIN_PA5
+#define PIN_OUT1_EN        PIN_PA6
+#define PIN_OUT2_EN        PIN_PA7
+#define PIN_OUT3_EN        PIN_PA8
+#define PIN_DUT_DISCHARGE  PIN_PA9
+#define PIN_XTAL_IN        PIN_PA14
+#define PIN_XTAL_OUT       PIN_PA15
+#define PIN_USB_DM         PIN_PA24
+#define PIN_USB_DP         PIN_PA25
+#define PIN_SWO            PIN_PA28
+#define PIN_SWCLK          PIN_PA30
+#define PIN_SWDIO          PIN_PA31
 
 #define UNUSED_PINS (   PIN_PA10 | \
                         PIN_PA11 | \
