@@ -7,13 +7,15 @@ This device monitors current and voltage for USB powered devices.
 Assembled PCB 
 
 The PCB is a four layer board, manufactured by OSH Park. The boards can
- be ordered ![here](https://oshpark.com/shared_projects/uE5lZDkP)
+ be ordered [here](https://oshpark.com/shared_projects/uE5lZDkP)
+
+Schematics, layout and BOM can be found [here](https://github.com/jonpe960/upm/hw/release/R1)
 
 # System description
 ![](https://github.com/jonpe960/upm/raw/master/doc/system_diagram.png)
 
 
-The device has a built in, two port, USB hub. One of the down stream ports'
+The device has a built in, two port, USB hub. One of the down stream ports
 connects to the USB A connector and the other down stream port is connected to
 the microcontroller.
 
