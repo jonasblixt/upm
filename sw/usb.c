@@ -158,6 +158,8 @@ void usb_init(uint32_t _base)
 void usb_reset(void)
 {
     _enumerated = false;
+
+    write8(base + USB_DADD, (1 << 7) );
     /* EP0 setup */
     eps[0].addr = (uint32_t) ep0_buf_out;
     eps[0].pcksize = (0x03 << 28);
@@ -204,6 +206,8 @@ uint32_t usb_send_ep0(uint8_t *data, uint32_t sz)
 
 uint32_t usb_send(uint8_t *data, uint32_t sz)
 {
+    uint32_t timeout = 0xffff;
+
     memcpy(ep3_buf_in, data, sz);
     eps[7].addr = (uint32_t) ep3_buf_in;
     eps[7].pcksize = (0x03 << 28) | sz;
@@ -213,7 +217,12 @@ uint32_t usb_send(uint8_t *data, uint32_t sz)
     write8(base + USB_EPINTFLAG(3), (1 << 1));
     write8(base + USB_EPSTATUSSET(3), (1 << 7));
 
-    while ((read8(base + USB_EPINTFLAG(3)) & (1 << 1)) == 0);
+    while ((read8(base + USB_EPINTFLAG(3)) & (1 << 1)) == 0)
+    {
+        timeout--;
+        if (!timeout)
+            return 255;
+    }
     return 0;
 }
 
