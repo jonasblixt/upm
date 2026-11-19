@@ -279,7 +279,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "V2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1076,8 +1076,8 @@
         },
         {
           "group_by": false,
-          "label": "\u222bUdt (Vus)",
-          "name": "\u222bUdt (Vus)",
+          "label": "∫Udt (Vus)",
+          "name": "∫Udt (Vus)",
           "show": false
         },
         {

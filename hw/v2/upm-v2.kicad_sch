@@ -10,9 +10,1567 @@
 		(rev "V2")
 		(company "Jonas Blixt <jonas@blxt.se>")
 		(comment 1 "USB Power Monitor")
-		(comment 4 "Status: draft, empty")
+		(comment 4 "Status: draft. Connectors and mechanical parts only")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "conn:Wurth_632723130112"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 52.07 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Wurth_632723130112"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Jonas:Wurth_632723130112"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/632723130112.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB Type-C receptacle, USB 3.1, horizontal, mid-mount (sunk 1.5 mm), 24 pin, 5 A, WR-COM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "632723130112"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Wurth_632723130112_0_1"
+				(rectangle
+					(start 0 50.8)
+					(end 30.48 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Wurth_632723130112_1_1"
+				(pin passive line
+					(at -5.08 35.56 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 20.32 180)
+					(length 5.08)
+					(name "SSTXP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 17.78 180)
+					(length 5.08)
+					(name "SSTXN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 48.26 0)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 48.26 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 40.64 180)
+					(length 5.08)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 38.1 180)
+					(length 5.08)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 27.94 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 45.72 0)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 2.54 180)
+					(length 5.08)
+					(name "SSRXN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 5.08 180)
+					(length 5.08)
+					(name "SSRXP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 33.02 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 30.48 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 10.16 180)
+					(length 5.08)
+					(name "SSTXP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 7.62 180)
+					(length 5.08)
+					(name "SSTXN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 43.18 0)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 45.72 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 35.56 180)
+					(length 5.08)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 33.02 180)
+					(length 5.08)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 25.4 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 40.64 0)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 12.7 180)
+					(length 5.08)
+					(name "SSRXN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 15.24 180)
+					(length 5.08)
+					(name "SSRXP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 27.94 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 22.86 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "led:LED1204_155124M173200"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LED1204_155124M173200"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Jonas:LED_Wurth_155124M173200_3.2x1.5mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/155124M173200.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "LED 1204 side view, RGB (622/523/465nm), common anode, 20mA per colour, WL-SFSW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "155124M173200"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Color" "RGB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED1204_155124M173200_0_1"
+				(rectangle
+					(start 0 10.16)
+					(end 12.7 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED1204_155124M173200_1_1"
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 5.08)
+					(name "CA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:BOM_Entry"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 0.508 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BOM_Entry_0_1"
+				(rectangle
+					(start 0 3.81)
+					(end 10.795 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BOM_Entry_1_1"
+				(text "BOM Entry"
+					(at 5.334 1.778 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "USB out (DUT), bezel B"
+		(exclude_from_sim no)
+		(at 152.4 45.72 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "259708ed-e2ea-4e06-abbb-7152085962e8")
+	)
+	(text "J1, J2 and D1 are placed and locked on the board: the enclosure fixes where they go (doc/v2-pcb.md)."
+		(exclude_from_sim no)
+		(at 50.8 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f711aba-6e0f-4b47-ad64-6340d714b77e")
+	)
+	(text "USB in (upstream), bezel A"
+		(exclude_from_sim no)
+		(at 50.8 45.72 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "35132e97-ed67-4740-9222-2276fb56beb5")
+	)
+	(text "Mechanical parts, BOM only"
+		(exclude_from_sim no)
+		(at 50.8 139.7 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "460ac4df-6a79-4dcd-85b8-81bcad9f8664")
+	)
+	(text "Status LED, side view, behind the light pipe in bezel B"
+		(exclude_from_sim no)
+		(at 254 45.72 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2083400-6eec-4fa9-9fdc-bb30278475fc")
+	)
+	(symbol
+		(lib_id "power:BOM_Entry")
+		(at 38.1 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "66ebbd87-a77d-4516-8b55-9561067321eb")
+		(property "Reference" "M1"
+			(at 38.608 141.224 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Enclosure"
+			(at 43.18 147.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Hammond"
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "1455A802"
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "upm-v2"
+				(path "/3aabc90b-0997-4b06-8ecb-97f65b711ebc"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:BOM_Entry")
+		(at 76.2 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "d0feffe8-862c-4ec8-b644-7a2902adcb77")
+		(property "Reference" "M2"
+			(at 76.708 142.494 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Light pipe"
+			(at 80.264 149.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Dialight"
+			(at 76.2 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "515-1313-0125F"
+			(at 76.2 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "upm-v2"
+				(path "/3aabc90b-0997-4b06-8ecb-97f65b711ebc"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "conn:Wurth_632723130112")
+		(at 152.4 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2057857-4da5-4e32-9b57-03797f9cdab8")
+		(property "Reference" "J2"
+			(at 152.4 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Wurth_632723130112"
+			(at 152.4 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Jonas:Wurth_632723130112"
+			(at 152.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/632723130112.pdf"
+			(at 152.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB Type-C receptacle, USB 3.1, horizontal, mid-mount (sunk 1.5 mm), 24 pin, 5 A, WR-COM"
+			(at 152.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth"
+			(at 152.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "632723130112"
+			(at 152.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A1"
+			(uuid "053271b2-0c2b-4bce-bbbd-65ab11998a18")
+		)
+		(pin "A2"
+			(uuid "4af0e5ae-534b-4ddb-b709-fdb26b785f21")
+		)
+		(pin "A3"
+			(uuid "6135a7ef-bfa4-4717-b1b3-4640970e8ceb")
+		)
+		(pin "A4"
+			(uuid "f00d66eb-59d2-4a43-a299-e6d257c117a0")
+		)
+		(pin "A5"
+			(uuid "572a00d3-9c13-4f06-b7f5-d465dbe6d04c")
+		)
+		(pin "A6"
+			(uuid "32e82018-08b5-48bc-8d06-0cf648b0c596")
+		)
+		(pin "A7"
+			(uuid "7a21a274-cd84-452f-94a0-1ca44475fdd5")
+		)
+		(pin "A8"
+			(uuid "12163d32-6ec2-4f93-9898-8475cbe303e8")
+		)
+		(pin "A9"
+			(uuid "1695cc5e-a148-448c-bddb-5ccf3dba5a12")
+		)
+		(pin "A10"
+			(uuid "05334aa9-64eb-4521-96d8-c1790eb7d12d")
+		)
+		(pin "A11"
+			(uuid "6a505a26-85bc-4f5f-a6cf-a6f185e3d71b")
+		)
+		(pin "A12"
+			(uuid "616c88c5-e0e6-447e-8487-ce1f1a950648")
+		)
+		(pin "B1"
+			(uuid "4c331c3b-8d19-46a5-afcc-89b4c14bc382")
+		)
+		(pin "B2"
+			(uuid "dbed9dc1-2e9d-44e2-a0f7-d52b12f7cddc")
+		)
+		(pin "B3"
+			(uuid "aa519d03-ec80-4593-8df3-20d56dea5a3f")
+		)
+		(pin "B4"
+			(uuid "78c7e95c-5378-42c1-8bde-cd4c25c90a48")
+		)
+		(pin "B5"
+			(uuid "035e86cc-70c7-4c20-87c6-36bb78279006")
+		)
+		(pin "B6"
+			(uuid "31558ddf-235a-448b-a472-d796bbde4e73")
+		)
+		(pin "B7"
+			(uuid "3aa84f10-79b6-48bd-8d33-55c35445a088")
+		)
+		(pin "B8"
+			(uuid "b2a765a8-853c-4ff8-882e-552b0cab151c")
+		)
+		(pin "B9"
+			(uuid "578e318f-bae3-424e-aeee-2f3d83074294")
+		)
+		(pin "B10"
+			(uuid "695a659a-056c-409e-8f16-6bdd8f29bc53")
+		)
+		(pin "B11"
+			(uuid "ba7b67ac-ede8-46ef-826c-5bcbbf06563e")
+		)
+		(pin "B12"
+			(uuid "9b0b49dd-60a9-43f3-af84-6004c74488dc")
+		)
+		(pin "S1"
+			(uuid "3236a536-a51c-481d-8ff2-27885cc603ce")
+		)
+		(instances
+			(project "upm-v2"
+				(path "/3aabc90b-0997-4b06-8ecb-97f65b711ebc"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led:LED1204_155124M173200")
+		(at 254 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9ceb74f-6855-450d-afb8-a8949b75c5ad")
+		(property "Reference" "D1"
+			(at 254 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LED1204_155124M173200"
+			(at 254 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Jonas:LED_Wurth_155124M173200_3.2x1.5mm_Horizontal"
+			(at 254 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/155124M173200.pdf"
+			(at 254 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED 1204 side view, RGB (622/523/465nm), common anode, 20mA per colour, WL-SFSW"
+			(at 254 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth"
+			(at 254 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "155124M173200"
+			(at 254 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "RGB"
+			(at 254 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5fe6585-c0f9-4cdb-9130-783869a9aac8")
+		)
+		(pin "2"
+			(uuid "efa0e640-a6bc-445c-841e-6dff1495d3d9")
+		)
+		(pin "3"
+			(uuid "d0deb0ef-033b-4ae8-aa00-51790e71de18")
+		)
+		(pin "4"
+			(uuid "7727c298-ced7-4475-9750-b069f50a857f")
+		)
+		(instances
+			(project "upm-v2"
+				(path "/3aabc90b-0997-4b06-8ecb-97f65b711ebc"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "conn:Wurth_632723130112")
+		(at 50.8 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2dbea5c-ce87-4b7f-b43f-bb3222e8fa88")
+		(property "Reference" "J1"
+			(at 50.8 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Wurth_632723130112"
+			(at 50.8 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Jonas:Wurth_632723130112"
+			(at 50.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/632723130112.pdf"
+			(at 50.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB Type-C receptacle, USB 3.1, horizontal, mid-mount (sunk 1.5 mm), 24 pin, 5 A, WR-COM"
+			(at 50.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth"
+			(at 50.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "632723130112"
+			(at 50.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A1"
+			(uuid "6317a418-a4ee-49ce-9657-e55b66bfaf06")
+		)
+		(pin "A2"
+			(uuid "f84d43f6-88fc-4031-acb6-d6f15147df71")
+		)
+		(pin "A3"
+			(uuid "5ce8c93b-5f50-4298-845a-1744f7eecbf7")
+		)
+		(pin "A4"
+			(uuid "d8a0e497-03e0-4137-a828-d690d2182325")
+		)
+		(pin "A5"
+			(uuid "2ce176c5-3d2d-4b5b-a49a-208589a5cde7")
+		)
+		(pin "A6"
+			(uuid "38983acf-a692-41d1-815a-d114d4bac819")
+		)
+		(pin "A7"
+			(uuid "67aaf260-f953-4002-b67c-11c20857b18f")
+		)
+		(pin "A8"
+			(uuid "32ed816c-abb6-4275-a973-eeb5cf4c5609")
+		)
+		(pin "A9"
+			(uuid "94cf9a14-23a9-4645-b0ef-8853e050b5fa")
+		)
+		(pin "A10"
+			(uuid "24e2111c-0400-4e99-8f7d-bf996fa6c59f")
+		)
+		(pin "A11"
+			(uuid "26e486f6-5962-48ff-96df-68ae3ae3e6da")
+		)
+		(pin "A12"
+			(uuid "b6a47d6c-900b-4491-a8b5-8e5886e53e4a")
+		)
+		(pin "B1"
+			(uuid "a3654354-1335-4637-a8a3-c6d62f675218")
+		)
+		(pin "B2"
+			(uuid "6b19ace3-666c-4e68-b855-3e579ca12626")
+		)
+		(pin "B3"
+			(uuid "63705336-acce-44aa-8bfb-f2bd4bb761b0")
+		)
+		(pin "B4"
+			(uuid "b0c043e8-7896-4f3d-b230-f5117927d4af")
+		)
+		(pin "B5"
+			(uuid "821a191d-db08-4419-b011-a604bccd7917")
+		)
+		(pin "B6"
+			(uuid "917a01f7-9079-4f61-8639-a0f34eaaa8dd")
+		)
+		(pin "B7"
+			(uuid "5bf67314-cd67-4d22-b57a-c1bd66fd5d7e")
+		)
+		(pin "B8"
+			(uuid "efe0727c-0c4f-440b-8be2-acf0201931de")
+		)
+		(pin "B9"
+			(uuid "0af77326-d81e-4725-844f-89e0324c5488")
+		)
+		(pin "B10"
+			(uuid "f85eb463-e926-458a-ae66-417438c8f97e")
+		)
+		(pin "B11"
+			(uuid "a9a0a8ce-c085-48df-b511-ea48ab7a3938")
+		)
+		(pin "B12"
+			(uuid "3397a31d-6e57-4802-8fc1-7a8e5b0eb539")
+		)
+		(pin "S1"
+			(uuid "53cac6d8-0352-45ac-9a38-2f9b7f94b044")
+		)
+		(instances
+			(project "upm-v2"
+				(path "/3aabc90b-0997-4b06-8ecb-97f65b711ebc"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

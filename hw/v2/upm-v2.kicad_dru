@@ -10,3 +10,9 @@
 (rule "DUT power path"
 	(condition "A.hasNetclass('Power_3A')")
 	(constraint track_width (min 1mm)))
+(rule "USB-C receptacle: holes within the land pattern"
+	(condition "A.memberOfFootprint('Jonas:Wurth_632723130112') && B.memberOfFootprint('Jonas:Wurth_632723130112')")
+	(constraint hole_clearance (min 0.1mm)))
+(rule "USB-C receptacle: pads to the cut-out and the locating holes"
+	(condition "A.memberOfFootprint('Jonas:Wurth_632723130112')")
+	(constraint edge_clearance (min 0.1mm)))

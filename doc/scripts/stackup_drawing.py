@@ -26,7 +26,7 @@ X0, Y0 = 125.0, 30.0          # top-left of the stackup block
 SCALE = 24.0                   # cross-section vertical scale (mm per mm)
 SEC_W = 22.0                   # cross-section width
 ROW = 3.4                      # label row pitch
-FX, FY = 30.0, 156.0           # fabrication notes
+FX, FY = 30.0, 172.0           # fabrication notes
 DX, DY = 232.0, 30.0           # drill table
 
 d = Drawing("User.3")
@@ -193,6 +193,8 @@ FAB_NOTES = [
     "8. Outline routed, ±0.2 mm or better. The two 79.5 mm edges slide in card guides: no V-cut,",
     "   and no break-off tabs or tab remains on any edge. The solder mask is open along those",
     "   two edges on purpose: 3 mm strips of bare laminate, both sides.",
+    "9. J1 and J2 need plated slots of 0.4 x 0.9, 0.5 x 1.1 and 0.5 x 1.5 mm and a non-plated slot",
+    "   of 0.65 x 0.95 mm, see the drill table. Do not enlarge or round them without asking.",
 ]
 text("FABRICATION NOTES", FX, FY, size=1.5, th=0.25, bold=True)
 for i, n in enumerate(FAB_NOTES):

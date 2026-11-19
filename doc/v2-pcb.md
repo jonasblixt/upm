@@ -4,8 +4,10 @@ The V2 board is 4 layers on JLCPCB's **JLC04161H-2116** stackup, 79.5 × 60.0 mm
 Hammond 1455A802 enclosure. The USB pairs are 90 Ω controlled impedance. Decided 2026-11-19.
 
 The KiCad project is `hw/v2/upm-v2.kicad_pro` (KiCad 10). So far it holds the outline, the
-physical stackup, the net classes and the design rules: there is no V2 schematic yet, and
-the root sheet is empty. What V2 is to contain is in [`v2-plan.md`](v2-plan.md).
+physical stackup, the net classes, the design rules and the parts the enclosure fixes: the
+two USB-C connectors and the status LED (§1). There is no V2 circuit yet: those three parts
+are on the root sheet unwired, with the enclosure and the light pipe as BOM-only entries.
+What V2 is to contain is in [`v2-plan.md`](v2-plan.md).
 
 | File | Holds |
 |---|---|
@@ -15,7 +17,9 @@ the root sheet is empty. What V2 is to contain is in [`v2-plan.md`](v2-plan.md).
 | | (User.3), dimensions on `User.Dimensions` (User.4) |
 | `hw/v2/upm-v2.kicad_pro` | Board-wide rules, net classes, track, via and pair presets |
 | `hw/v2/upm-v2.kicad_dru` | Custom rules (§7) |
-| `doc/scripts/board_outline.py` | Draws the outline, keep-outs and enclosure drawing (§1) |
+| `hw/v2/upm-v2.kicad_sch` | Root sheet: J1, J2, D1 and the BOM-only parts |
+| `doc/scripts/board_outline.py` | Draws the outline, cut-outs, keep-outs and enclosure drawing (§1) |
+| `doc/scripts/place_fixed_parts.py` | Places J1, J2 and D1 in the cut-outs (needs KiCad's Python) |
 | `doc/scripts/stackup_drawing.py` | Draws the stackup, impedance table, fab notes and drill table |
 | `doc/scripts/impedance.py` | Field solver the widths come from (§4) |
 
@@ -76,7 +80,8 @@ the board is 1.6 mm ±10 %, so the strips are made as thin as the stackup allows
 top of that band, 1.73 to 1.76 mm, still does not fit; see §8.
 
 **Height.** 4.45 mm above the top side and 2.92 mm below the bottom side. Design to 4.0 and
-2.5 mm. This decides the connectors, see §8.
+2.5 mm. A standard USB-A receptacle, a barrel jack or an upright 2.54 mm header does not
+fit.
 
 **Bezels.** The board's top face is on the centre line of the bezel (0.03 mm above it in
 the STEP), so a connector whose centre is *h* above the board comes out *h* above the
@@ -89,6 +94,82 @@ it when re-run:
 ```sh
 python doc/scripts/board_outline.py hw/v2/upm-v2.kicad_pcb
 ```
+
+### Connectors, LED and light pipe
+
+Decided 2026-11-19: USB-C in on bezel A, USB-C out to the DUT on bezel B, and a light pipe
+on bezel B. Everything on a bezel is to sit on its centre line, which is the board's top
+face.
+
+| Ref | Part | Where |
+|---|---|---|
+| J1, J2 | Würth 632723130112, USB Type-C receptacle, mid-mount, | middle of each board end, |
+| | 24 pin, 5 A, drawn for a 1.6 mm board | in a 9.5 × 4.7 mm cut-out |
+| D1 | Würth 155124M173200 (WL-SFSW), side-view RGB LED, | bezel B end, 12 mm from J2, |
+| | common anode, 3.2 × 1.5 × 1.0 mm | behind a 3.6 × 1.3 mm notch |
+| M2 | Dialight 515-1313-0125F, 3 mm countersink light pipe, | pressed into bezel B, |
+| | 3.2 mm long. BOM only | in front of D1 |
+| M1 | Hammond 1455A802 enclosure. BOM only | |
+
+**The connector is sunk into the board.** Its shell is 3.42 mm high and sits in the
+cut-out, 2.00 mm above the board's top face and 1.42 mm below it. That puts the middle of
+its opening 0.29 mm above the board, **0.3 mm above the bezel's centre line**. The 0.29 is
+dimensioned in detail B of the data sheet, and Würth's STEP model agrees: its stake tips
+are 1.89 mm from the shell's centre line and reach 1.6 mm into the board. A standard
+top-mount receptacle would be 1.6 mm high.
+
+- **Reach.** The mating face is 2.51 mm beyond the board end, and the bezel is 2.5 mm
+  thick there. With the board against a bezel the face is flush with its panel; with the
+  board at the other end of its play it is 0.5 to 1.2 mm back. A plug seats as long as the
+  face is within about 2.0 mm of the panel, so no cable's overmould has to enter the bezel.
+- **Cut-out.** 9.5 mm wide and 4.70 mm deep, with a half-circle relief of 0.5 mm radius at
+  each inner corner so the square shell goes in. The data sheet draws the board edge but
+  does not dimension it. It is taken 0.25 mm beyond the front stake pads, which is where
+  the 2.51 mm comes from.
+- **The land pattern is tight for JLCPCB.** It is Würth's, unchanged: 0.4 mm holes in
+  0.65 mm pads on a 0.8 mm pitch, plated slots down to 0.4 × 0.9 mm, a non-plated slot of
+  0.65 × 0.95 mm that comes within 0.10 mm of a pad. See §8.
+
+**The LED shines along the board into the end of the light pipe.** Its lens is 2.2 mm wide
+and 1.0 mm high, standing on the board, so all of it faces the upper half of the 2.87 mm
+pipe, whose axis is on the board's top face. The lower half of the pipe would hit the board
+end, hence the notch. The pipe ends 0.7 mm behind the bezel; the gap to the lens is 0.6 mm
+with the board against bezel B and up to 1.8 mm at the other end of its play. How bright it
+looks has not been tried: check it on the bench. Each colour takes 20 mA at most.
+
+The LED is a plain RGB part, three cathodes and a common anode, driven from three MCU
+pins. There is no white die: no side-view RGBW part without a built-in controller turned
+up.
+
+**Bezel machining**, seen from outside, with the board's top side up:
+
+| Bezel | Opening | Size | Position |
+|---|---|---|---|
+| A and B | USB-C | 10.2 × 4.0 mm | middle of the width; centre 0.3 mm above the |
+| | | | bezel's centre line |
+| B | Light pipe | Ø 3.05 mm, 60° countersink | on the centre line, 12.0 mm right of the |
+| | | to Ø 3.25 mm from outside | connector |
+
+The connector shell is 9.65 × 3.42 mm at the mouth. A plug's overmould is up to 12.85 mm
+wide (USB Type-C specification, release 2.4), which leaves 3.9 mm to the light pipe.
+
+**Placing them.** J1, J2 and D1 are locked on the board. `place_fixed_parts.py` puts them
+there from the positions in `board_outline.py`, links them to their symbols and sets their
+nets from the netlist, so Update PCB from Schematic leaves them where they are:
+
+```sh
+kicad-cli sch export netlist --format kicadsexpr -o upm-v2.net hw/v2/upm-v2.kicad_sch
+JONAS_KICADLIB=<kicadlib> python doc/scripts/place_fixed_parts.py hw/v2/upm-v2.kicad_pcb upm-v2.net
+```
+
+The symbols and footprints are in kicadlib (`conn/Wurth_632723130112`,
+`led/LED1204_155124M173200`, footprints `Jonas:Wurth_632723130112` and
+`Jonas:LED_Wurth_155124M173200_3.2x1.5mm_Horizontal`). Both footprints were drawn from the
+data sheets for this board and are on kicadlib's manual-review list. The connector's 3D
+model is Würth's own STEP; the LED's is a generated box. Data sheets:
+[connector](https://www.we-online.com/components/products/datasheet/632723130112.pdf),
+[LED](https://www.we-online.com/components/products/datasheet/155124M173200.pdf),
+[light pipe](https://s3-us-west-2.amazonaws.com/catsy.557/C18466A.pdf).
 
 ## 2. Stackup
 
@@ -236,6 +317,11 @@ requirements. The same notes are on the board drawing.
 8. **Outline** routed, ±0.2 mm or better. The two 79.5 mm edges slide in card guides: no
    V-cut, and no break-off tabs or tab remains on any edge. The solder mask is open along
    those two edges on purpose: 3 mm strips of bare laminate, both sides.
+9. **Slots.** J1 and J2 need plated slots of 0.4 × 0.9, 0.5 × 1.1 and 0.5 × 1.5 mm and a
+   non-plated slot of 0.65 × 0.95 mm. They are not to be enlarged or rounded without
+   asking.
+
+The fab drawing is on an A3 sheet.
 
 **Keeping things in step.** The drawing comes from `doc/scripts/stackup_drawing.py`. When
 the stackup, the widths or these notes change, update this document, Board Setup →
@@ -290,10 +376,17 @@ so the reasons are here. Every number needs a unit, or KiCad ignores the whole f
 | | ≤ 2 vias per net | The pairs stay on L1. Two allow |
 | | | the Type-C A6/B6 cross-over |
 | DUT power path | `Power_3A` tracks ≥ 1.0 mm | §4 |
+| USB-C receptacle: holes within | hole clearance 0.1 mm between | Würth's pattern has 0.10 to |
+| the land pattern | pads and holes of the footprint | 0.28 mm; the board rule is 0.3 |
+| USB-C receptacle: pads to the | edge clearance 0.1 mm for the | 0.23 mm to the cut-out, 0.25 to |
+| cut-out and the locating holes | footprint's pads | the board end, 0.10 to a locating |
+| | | slot; the board rule is 0.5 |
 
-Each rule was checked in KiCad 10.0.8 with a deliberate violation: a track in a rail
-strip, a 0.5 mm `Power_3A` track, a 0.12 mm track and a USB pair with 5 mm skew were all
-reported.
+The first three rules were checked in KiCad 10.0.8 with a deliberate violation: a track in
+a rail strip, a 0.5 mm `Power_3A` track, a 0.12 mm track and a USB pair with 5 mm skew were
+all reported. The two connector rules only relax the board rules inside J1 and J2: without
+them DRC reports 154 violations there, with them none. Tracks to those pads still keep the
+board rules.
 
 **Routing rules that DRC does not check:**
 
@@ -311,15 +404,17 @@ reported.
 |---|---|
 | 1 | Confirm the 90 Ω width in JLCPCB's calculator for JLC04161H-2116 (§5) |
 | 2 | Check the price and lead time of JLC04161H-2116 against 3313 at quote (§3) |
-| 3 | **Connectors must fit 4.45 mm.** A standard USB-A receptacle is about 7 mm tall and |
-| | does not fit. The DUT port needs a mid-mount USB-A in a board cut-out, which changes |
-| | the outline, or USB-C. A barrel jack and an upright 2.54 mm header do not fit either |
+| 3 | **J1 / J2 land pattern against JLCPCB's limits.** From their capabilities page: PTH |
+| | annular ring 0.15 mm minimum (the pattern has 0.125), pad holes 0.45 mm apart (0.40), |
+| | NPTH to copper 0.2 mm (0.10). Their slot limits were not looked up; the pattern needs |
+| | plated slots 0.4 and 0.5 mm wide and a non-plated one 0.65 mm wide. Ask before ordering |
 | 4 | Board length 79.5 or 80.0 mm (§1) |
 | 5 | Board thickness against the 1.63 mm guides (§1). The bare rail strips fit while the |
 | | board is under about 1.73 mm; ±10 % allows 1.76 mm. Measure the first boards. The |
 | | strips can be sanded, and JLC04161H-3313 is 0.034 mm thinner |
-| 6 | Bezel cut-outs, once the connectors are chosen. The apertures have to clear the |
-| | plug overmoulds if the connectors sit behind the panel face |
+| 6 | Bezel machining per §1. Decide how: the bezels are polycarbonate |
 | 7 | Assign `Power_3A`, `Power_0A5` and `Kelvin_SENSE` in the schematic (§4) |
 | 8 | Production jobsets, as in PoEtato (`pcb_outputs.kicad_jobset`), when there is |
 | | something to release |
+| 9 | Brightness through the light pipe, and the LED's pad 1 against a real part (§1) |
+| 10 | The 5 V power input of the plan has no connector yet: bezel A has only J1 |
