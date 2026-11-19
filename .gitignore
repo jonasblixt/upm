@@ -11,3 +11,6 @@ fp-info-cache
 
 # Python
 __pycache__/
+
+# KiCad local history
+.history/
