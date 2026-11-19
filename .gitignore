@@ -1,3 +1,13 @@
 .DS_Store
 *.bak
 *.kicad_pcb-bak
+
+# KiCad
+*.lck
+*.kicad_prl
+*-backups/
+_autosave-*
+fp-info-cache
+
+# Python
+__pycache__/

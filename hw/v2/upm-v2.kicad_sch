@@ -1,0 +1,22 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3aabc90b-0997-4b06-8ecb-97f65b711ebc")
+	(paper "A3")
+	(title_block
+		(title "UPM")
+		(date "2026-11-19")
+		(rev "V2")
+		(company "Jonas Blixt <jonas@blxt.se>")
+		(comment 1 "USB Power Monitor")
+		(comment 4 "Status: draft, empty")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
