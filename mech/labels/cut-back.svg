@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156.189" height="23.981" viewBox="0 0 156.189 23.981">
+  <g id="Cut">
+    <path id="Cut__back_outline" data-name="Cut: back outline" d="M1.417 0 L154.772 0 C155.555 0 156.189 0.634 156.189 1.417 L156.189 22.564 C156.189 23.347 155.555 23.981 154.772 23.981 L1.417 23.981 C0.634 23.981 0 23.347 0 22.564 L0 1.417 C0 0.634 0.634 0 1.417 0 Z" fill="none" stroke="#f01796" stroke-width="0.25" stroke-miterlimit="10"/>
+    <path id="Cut__USB-C_window_J1_host__opening___0.3_" data-name="Cut: USB-C window J1 host (opening + 0.3)" d="M43.03 4.535 L60.718 4.535 C63.974 4.535 66.614 7.175 66.614 10.431 L66.614 11.735 C66.614 14.992 63.974 17.631 60.718 17.631 L43.03 17.631 C39.774 17.631 37.134 14.992 37.134 11.735 L37.134 10.431 C37.134 7.175 39.774 4.535 43.03 4.535 Z" fill="none" stroke="#f01796" stroke-width="0.25" stroke-miterlimit="10"/>
+    <path id="Cut__USB-C_window_J4_PD_power_in__opening___0.3_" data-name="Cut: USB-C window J4 PD power in (opening + 0.3)" d="M95.471 4.535 L113.159 4.535 C116.415 4.535 119.055 7.175 119.055 10.431 L119.055 11.735 C119.055 14.992 116.415 17.631 113.159 17.631 L95.471 17.631 C92.215 17.631 89.575 14.992 89.575 11.735 L89.575 10.431 C89.575 7.175 92.215 4.535 95.471 4.535 Z" fill="none" stroke="#f01796" stroke-width="0.25" stroke-miterlimit="10"/>
+  </g>
+</svg>

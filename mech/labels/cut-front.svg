@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156.189" height="23.981" viewBox="0 0 156.189 23.981">
+  <g id="Cut">
+    <path id="Cut__front_outline" data-name="Cut: front outline" d="M1.417 0 L154.772 0 C155.555 0 156.189 0.634 156.189 1.417 L156.189 22.564 C156.189 23.347 155.555 23.981 154.772 23.981 L1.417 23.981 C0.634 23.981 0 23.347 0 22.564 L0 1.417 C0 0.634 0.634 0 1.417 0 Z" fill="none" stroke="#f01796" stroke-width="0.25" stroke-miterlimit="10"/>
+    <path id="Cut__USB-C_window__opening___0.3_" data-name="Cut: USB-C window (opening + 0.3)" d="M69.251 4.535 L86.939 4.535 C90.195 4.535 92.835 7.175 92.835 10.431 L92.835 11.735 C92.835 14.992 90.195 17.631 86.939 17.631 L69.251 17.631 C65.994 17.631 63.355 14.992 63.355 11.735 L63.355 10.431 C63.355 7.175 65.994 4.535 69.251 4.535 Z" fill="none" stroke="#f01796" stroke-width="0.25" stroke-miterlimit="10"/>
+    <path id="Cut__header_window__opening___0.4_" data-name="Cut: header window (opening + 0.4)" d="M20.409 5.102 L50.74 5.102 C52.149 5.102 53.291 6.244 53.291 7.653 L53.291 14.173 C53.291 15.582 52.149 16.724 50.74 16.724 L20.409 16.724 C19 16.724 17.858 15.582 17.858 14.173 L17.858 7.653 C17.858 6.244 19 5.102 20.409 5.102 Z" fill="none" stroke="#f01796" stroke-width="0.25" stroke-miterlimit="10"/>
+    <circle id="Cut__light_pipe_window__4.5__515-1351_head_5.0_covers_it_" data-name="Cut: light pipe window (4.5; 515-1351 head 5.0 covers it)" cx="112.11" cy="11.905" r="6.378" fill="none" stroke="#f01796" stroke-width="0.25" stroke-miterlimit="10"/>
+  </g>
+</svg>

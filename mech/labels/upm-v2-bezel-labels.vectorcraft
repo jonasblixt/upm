@@ -1,0 +1,3857 @@
+{
+  "format": "vectorcraft",
+  "version": 4,
+  "generator": "VectorCraft 0.24.1",
+  "pdfCompatible": true,
+  "pdf": {
+    "mime": "application/pdf",
+    "blob": [
+      0,
+      22196
+    ]
+  },
+  "document": {
+    "version": 3,
+    "title": "UPM V2 bezel labels",
+    "units": "Millimeters",
+    "rulers": "artboard",
+    "color_mode": "Cmyk",
+    "artboards": [
+      {
+        "id": 1,
+        "name": "Front - bezel B (outputs, DUT, status)",
+        "rect": {
+          "x0": 0.0,
+          "y0": 0.0,
+          "x1": 156.18897637795277,
+          "y1": 23.98110236220473
+        },
+        "show_center_mark": false,
+        "show_cross_hairs": false
+      },
+      {
+        "id": 2,
+        "name": "Back - bezel A (USB host, PD in)",
+        "rect": {
+          "x0": 176.18897637795277,
+          "y0": 0.0,
+          "x1": 332.37795275590554,
+          "y1": 23.98110236220473
+        },
+        "show_center_mark": false,
+        "show_cross_hairs": false
+      }
+    ],
+    "layers": [
+      {
+        "id": 1,
+        "name": "Print",
+        "kind": {
+          "type": "layer",
+          "color": {
+            "Preset": 0
+          },
+          "template": false,
+          "printable": true,
+          "children": [
+            {
+              "id": 51,
+              "name": "Front background (1 mm bleed)",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.0,
+                        "m": 0.0,
+                        "y": 0.0,
+                        "k": 0.85
+                      }
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "none"
+                    },
+                    "width": 0.0
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            1.4169999999999998,
+                            -2.835
+                          ],
+                          "in": [
+                            -0.9313147562805342,
+                            -2.835
+                          ]
+                        },
+                        {
+                          "p": [
+                            154.772,
+                            -2.835
+                          ],
+                          "out": [
+                            157.12031475628052,
+                            -2.835
+                          ]
+                        },
+                        {
+                          "p": [
+                            159.024,
+                            1.4169999999999998
+                          ],
+                          "in": [
+                            159.024,
+                            -0.9313147562805342
+                          ]
+                        },
+                        {
+                          "p": [
+                            159.024,
+                            22.564
+                          ],
+                          "out": [
+                            159.024,
+                            24.912314756280534
+                          ]
+                        },
+                        {
+                          "p": [
+                            154.772,
+                            26.816
+                          ],
+                          "in": [
+                            157.12031475628052,
+                            26.816
+                          ]
+                        },
+                        {
+                          "p": [
+                            1.4169999999999998,
+                            26.816
+                          ],
+                          "out": [
+                            -0.9313147562805342,
+                            26.816
+                          ]
+                        },
+                        {
+                          "p": [
+                            -2.835,
+                            22.564
+                          ],
+                          "in": [
+                            -2.835,
+                            24.912314756280534
+                          ]
+                        },
+                        {
+                          "p": [
+                            -2.835,
+                            1.4169999999999998
+                          ],
+                          "out": [
+                            -2.835,
+                            -0.9313147562805342
+                          ]
+                        }
+                      ],
+                      "closed": true
+                    }
+                  ]
+                },
+                "live": {
+                  "shape": "rectangle",
+                  "w": 161.859,
+                  "h": 29.651,
+                  "radii": [
+                    4.252,
+                    4.252,
+                    4.252,
+                    4.252
+                  ],
+                  "xf": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    -2.835,
+                    -2.835
+                  ]
+                }
+              }
+            },
+            {
+              "id": 52,
+              "name": "Back background (1 mm bleed)",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.0,
+                        "m": 0.0,
+                        "y": 0.0,
+                        "k": 0.85
+                      }
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "none"
+                    },
+                    "width": 0.0
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            177.60600000000002,
+                            -2.835
+                          ],
+                          "in": [
+                            175.2576852437195,
+                            -2.835
+                          ]
+                        },
+                        {
+                          "p": [
+                            330.961,
+                            -2.835
+                          ],
+                          "out": [
+                            333.3093147562805,
+                            -2.835
+                          ]
+                        },
+                        {
+                          "p": [
+                            335.213,
+                            1.4169999999999998
+                          ],
+                          "in": [
+                            335.213,
+                            -0.9313147562805342
+                          ]
+                        },
+                        {
+                          "p": [
+                            335.213,
+                            22.564
+                          ],
+                          "out": [
+                            335.213,
+                            24.912314756280534
+                          ]
+                        },
+                        {
+                          "p": [
+                            330.961,
+                            26.816
+                          ],
+                          "in": [
+                            333.3093147562805,
+                            26.816
+                          ]
+                        },
+                        {
+                          "p": [
+                            177.60600000000002,
+                            26.816
+                          ],
+                          "out": [
+                            175.2576852437195,
+                            26.816
+                          ]
+                        },
+                        {
+                          "p": [
+                            173.354,
+                            22.564
+                          ],
+                          "in": [
+                            173.354,
+                            24.912314756280534
+                          ]
+                        },
+                        {
+                          "p": [
+                            173.354,
+                            1.4169999999999998
+                          ],
+                          "out": [
+                            173.354,
+                            -0.9313147562805342
+                          ]
+                        }
+                      ],
+                      "closed": true
+                    }
+                  ]
+                },
+                "live": {
+                  "shape": "rectangle",
+                  "w": 161.859,
+                  "h": 29.651,
+                  "radii": [
+                    4.252,
+                    4.252,
+                    4.252,
+                    4.252
+                  ],
+                  "xf": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    173.354,
+                    -2.835
+                  ]
+                }
+              }
+            },
+            {
+              "id": 23,
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  140.5,
+                  14.6
+                ],
+                "runs": [
+                  {
+                    "text": "UPM",
+                    "style": {
+                      "font_family": "Arial",
+                      "font_style": "Bold",
+                      "size": 10.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 26,
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  194.756,
+                  14.6
+                ],
+                "runs": [
+                  {
+                    "text": "UPM",
+                    "style": {
+                      "font_family": "Arial",
+                      "font_style": "Bold",
+                      "size": 10.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 53,
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  24.775,
+                  22.28
+                ],
+                "runs": [
+                  {
+                    "text": "1",
+                    "style": {
+                      "font_family": "Arial Black",
+                      "font_style": "Regular",
+                      "size": 5.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 54,
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  31.975,
+                  22.28
+                ],
+                "runs": [
+                  {
+                    "text": "2",
+                    "style": {
+                      "font_family": "Arial Black",
+                      "font_style": "Regular",
+                      "size": 5.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 55,
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  39.175,
+                  22.28
+                ],
+                "runs": [
+                  {
+                    "text": "3",
+                    "style": {
+                      "font_family": "Arial Black",
+                      "font_style": "Regular",
+                      "size": 5.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 56,
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  10.0,
+                  12.703
+                ],
+                "runs": [
+                  {
+                    "text": "OUT",
+                    "style": {
+                      "font_family": "Arial Black",
+                      "font_style": "Regular",
+                      "size": 5.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 57,
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  78.0945,
+                  22.28
+                ],
+                "runs": [
+                  {
+                    "text": "DUT",
+                    "style": {
+                      "font_family": "Arial Black",
+                      "font_style": "Regular",
+                      "size": 5.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 59,
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  140.5,
+                  22.28
+                ],
+                "runs": [
+                  {
+                    "text": "V2",
+                    "style": {
+                      "font_family": "Arial Black",
+                      "font_style": "Regular",
+                      "size": 5.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 60,
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  194.756,
+                  22.28
+                ],
+                "runs": [
+                  {
+                    "text": "V2",
+                    "style": {
+                      "font_family": "Arial Black",
+                      "font_style": "Regular",
+                      "size": 5.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 61,
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  228.06303,
+                  22.28
+                ],
+                "runs": [
+                  {
+                    "text": "USB HOST",
+                    "style": {
+                      "font_family": "Arial Black",
+                      "font_style": "Regular",
+                      "size": 5.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 73,
+              "name": "PD IN",
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  280.50397,
+                  22.28
+                ],
+                "runs": [
+                  {
+                    "text": "PD IN",
+                    "style": {
+                      "font_family": "Arial Black",
+                      "font_style": "Regular",
+                      "size": 5.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 62,
+              "name": "USB",
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  313.807,
+                  10.99
+                ],
+                "runs": [
+                  {
+                    "text": "USB",
+                    "style": {
+                      "font_family": "Arial Black",
+                      "font_style": "Regular",
+                      "size": 5.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 63,
+              "name": "POWER",
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  313.807,
+                  16.57
+                ],
+                "runs": [
+                  {
+                    "text": "POWER",
+                    "style": {
+                      "font_family": "Arial Black",
+                      "font_style": "Regular",
+                      "size": 5.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 75,
+              "name": "MONITOR",
+              "kind": {
+                "type": "text",
+                "kind": {
+                  "kind": "point"
+                },
+                "xf": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  313.807,
+                  22.28
+                ],
+                "runs": [
+                  {
+                    "text": "MONITOR",
+                    "style": {
+                      "font_family": "Arial Black",
+                      "font_style": "Regular",
+                      "size": 5.0,
+                      "tracking": 0.0,
+                      "baseline_shift": 0.0,
+                      "h_scale": 100.0,
+                      "v_scale": 100.0,
+                      "rotation": 0.0,
+                      "fill": {
+                        "type": "solid",
+                        "color": {
+                          "model": "cmyk",
+                          "c": 0.0,
+                          "m": 0.0,
+                          "y": 0.0,
+                          "k": 0.0
+                        },
+                        "swatch": "White"
+                      },
+                      "stroke": {
+                        "type": "none"
+                      },
+                      "stroke_width": 0.0,
+                      "underline": false,
+                      "strikethrough": false,
+                      "all_caps": false
+                    }
+                  }
+                ],
+                "para": {
+                  "justify": "Center",
+                  "left_indent": 0.0,
+                  "right_indent": 0.0,
+                  "first_line_indent": 0.0,
+                  "space_before": 0.0,
+                  "space_after": 0.0,
+                  "hyphenate": false,
+                  "mojikumi": "lineEndHalf",
+                  "burasagari": "standard"
+                }
+              }
+            },
+            {
+              "id": 64,
+              "name": "GND symbol stem",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "none"
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.0,
+                        "m": 0.0,
+                        "y": 0.0,
+                        "k": 0.0
+                      },
+                      "swatch": "White"
+                    },
+                    "width": 0.75
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            46.375,
+                            17.9
+                          ]
+                        },
+                        {
+                          "p": [
+                            46.375,
+                            19.03
+                          ]
+                        }
+                      ],
+                      "closed": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": 65,
+              "name": "GND symbol bar 1",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "none"
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.0,
+                        "m": 0.0,
+                        "y": 0.0,
+                        "k": 0.0
+                      },
+                      "swatch": "White"
+                    },
+                    "width": 0.75
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            43.875,
+                            19.405
+                          ]
+                        },
+                        {
+                          "p": [
+                            48.875,
+                            19.405
+                          ]
+                        }
+                      ],
+                      "closed": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": 66,
+              "name": "GND symbol bar 2",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "none"
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.0,
+                        "m": 0.0,
+                        "y": 0.0,
+                        "k": 0.0
+                      },
+                      "swatch": "White"
+                    },
+                    "width": 0.75
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            44.775,
+                            20.655
+                          ]
+                        },
+                        {
+                          "p": [
+                            47.975,
+                            20.655
+                          ]
+                        }
+                      ],
+                      "closed": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": 67,
+              "name": "GND symbol bar 3",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "none"
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.0,
+                        "m": 0.0,
+                        "y": 0.0,
+                        "k": 0.0
+                      },
+                      "swatch": "White"
+                    },
+                    "width": 0.75
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            45.675,
+                            21.905
+                          ]
+                        },
+                        {
+                          "p": [
+                            47.075,
+                            21.905
+                          ]
+                        }
+                      ],
+                      "closed": false
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 30,
+        "name": "Cut",
+        "kind": {
+          "type": "layer",
+          "color": {
+            "Preset": 1
+          },
+          "template": false,
+          "printable": true,
+          "children": [
+            {
+              "id": 31,
+              "name": "Cut: front outline",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "none"
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.0,
+                        "m": 1.0,
+                        "y": 0.0,
+                        "k": 0.0
+                      },
+                      "swatch": "CutContour"
+                    },
+                    "width": 0.25
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            1.417,
+                            0.0
+                          ],
+                          "in": [
+                            0.6344125094897656,
+                            0.0
+                          ]
+                        },
+                        {
+                          "p": [
+                            154.772,
+                            0.0
+                          ],
+                          "out": [
+                            155.55458749051022,
+                            0.0
+                          ]
+                        },
+                        {
+                          "p": [
+                            156.189,
+                            1.417
+                          ],
+                          "in": [
+                            156.189,
+                            0.6344125094897656
+                          ]
+                        },
+                        {
+                          "p": [
+                            156.189,
+                            22.564
+                          ],
+                          "out": [
+                            156.189,
+                            23.346587490510235
+                          ]
+                        },
+                        {
+                          "p": [
+                            154.772,
+                            23.981
+                          ],
+                          "in": [
+                            155.55458749051022,
+                            23.981
+                          ]
+                        },
+                        {
+                          "p": [
+                            1.417,
+                            23.981
+                          ],
+                          "out": [
+                            0.6344125094897656,
+                            23.981
+                          ]
+                        },
+                        {
+                          "p": [
+                            0.0,
+                            22.564
+                          ],
+                          "in": [
+                            0.0,
+                            23.346587490510235
+                          ]
+                        },
+                        {
+                          "p": [
+                            0.0,
+                            1.417
+                          ],
+                          "out": [
+                            0.0,
+                            0.6344125094897656
+                          ]
+                        }
+                      ],
+                      "closed": true
+                    }
+                  ]
+                },
+                "live": {
+                  "shape": "rectangle",
+                  "w": 156.189,
+                  "h": 23.981,
+                  "radii": [
+                    1.417,
+                    1.417,
+                    1.417,
+                    1.417
+                  ],
+                  "xf": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            },
+            {
+              "id": 35,
+              "name": "Cut: back outline",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "none"
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.0,
+                        "m": 1.0,
+                        "y": 0.0,
+                        "k": 0.0
+                      },
+                      "swatch": "CutContour"
+                    },
+                    "width": 0.25
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            177.606,
+                            0.0
+                          ],
+                          "in": [
+                            176.82341250948977,
+                            0.0
+                          ]
+                        },
+                        {
+                          "p": [
+                            330.961,
+                            0.0
+                          ],
+                          "out": [
+                            331.7435874905102,
+                            0.0
+                          ]
+                        },
+                        {
+                          "p": [
+                            332.378,
+                            1.417
+                          ],
+                          "in": [
+                            332.378,
+                            0.6344125094897656
+                          ]
+                        },
+                        {
+                          "p": [
+                            332.378,
+                            22.564
+                          ],
+                          "out": [
+                            332.378,
+                            23.346587490510235
+                          ]
+                        },
+                        {
+                          "p": [
+                            330.961,
+                            23.981
+                          ],
+                          "in": [
+                            331.7435874905102,
+                            23.981
+                          ]
+                        },
+                        {
+                          "p": [
+                            177.606,
+                            23.981
+                          ],
+                          "out": [
+                            176.82341250948977,
+                            23.981
+                          ]
+                        },
+                        {
+                          "p": [
+                            176.189,
+                            22.564
+                          ],
+                          "in": [
+                            176.189,
+                            23.346587490510235
+                          ]
+                        },
+                        {
+                          "p": [
+                            176.189,
+                            1.417
+                          ],
+                          "out": [
+                            176.189,
+                            0.6344125094897656
+                          ]
+                        }
+                      ],
+                      "closed": true
+                    }
+                  ]
+                },
+                "live": {
+                  "shape": "rectangle",
+                  "w": 156.189,
+                  "h": 23.981,
+                  "radii": [
+                    1.417,
+                    1.417,
+                    1.417,
+                    1.417
+                  ],
+                  "xf": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    176.189,
+                    0.0
+                  ]
+                }
+              }
+            },
+            {
+              "id": 68,
+              "name": "Cut: USB-C window (opening + 0.3)",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "none"
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.0,
+                        "m": 1.0,
+                        "y": 0.0,
+                        "k": 0.0
+                      },
+                      "swatch": "CutContour"
+                    },
+                    "width": 0.25
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            69.2505,
+                            4.5354
+                          ],
+                          "in": [
+                            65.99422911499764,
+                            4.5354
+                          ]
+                        },
+                        {
+                          "p": [
+                            86.9385,
+                            4.5354
+                          ],
+                          "out": [
+                            90.19477088500236,
+                            4.5354
+                          ]
+                        },
+                        {
+                          "p": [
+                            92.8345,
+                            10.4314
+                          ],
+                          "in": [
+                            92.8345,
+                            7.175129114997642
+                          ]
+                        },
+                        {
+                          "p": [
+                            92.8345,
+                            11.7354
+                          ],
+                          "out": [
+                            92.8345,
+                            14.991670885002357
+                          ]
+                        },
+                        {
+                          "p": [
+                            86.9385,
+                            17.6314
+                          ],
+                          "in": [
+                            90.19477088500236,
+                            17.6314
+                          ]
+                        },
+                        {
+                          "p": [
+                            69.2505,
+                            17.6314
+                          ],
+                          "out": [
+                            65.99422911499764,
+                            17.6314
+                          ]
+                        },
+                        {
+                          "p": [
+                            63.3545,
+                            11.7354
+                          ],
+                          "in": [
+                            63.3545,
+                            14.991670885002357
+                          ]
+                        },
+                        {
+                          "p": [
+                            63.3545,
+                            10.4314
+                          ],
+                          "out": [
+                            63.3545,
+                            7.175129114997642
+                          ]
+                        }
+                      ],
+                      "closed": true
+                    }
+                  ]
+                },
+                "live": {
+                  "shape": "rectangle",
+                  "w": 29.480000000000004,
+                  "h": 13.096,
+                  "radii": [
+                    5.896,
+                    5.896,
+                    5.896,
+                    5.896
+                  ],
+                  "xf": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    63.3545,
+                    4.5354
+                  ]
+                }
+              }
+            },
+            {
+              "id": 69,
+              "name": "Cut: header window (opening + 0.4)",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "none"
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.0,
+                        "m": 1.0,
+                        "y": 0.0,
+                        "k": 0.0
+                      },
+                      "swatch": "CutContour"
+                    },
+                    "width": 0.25
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            20.409,
+                            5.1023
+                          ],
+                          "in": [
+                            19.000121603181647,
+                            5.1023
+                          ]
+                        },
+                        {
+                          "p": [
+                            50.739999999999995,
+                            5.1023
+                          ],
+                          "out": [
+                            52.14887839681835,
+                            5.1023
+                          ]
+                        },
+                        {
+                          "p": [
+                            53.291,
+                            7.6533
+                          ],
+                          "in": [
+                            53.291,
+                            6.244421603181645
+                          ]
+                        },
+                        {
+                          "p": [
+                            53.291,
+                            14.1733
+                          ],
+                          "out": [
+                            53.291,
+                            15.582178396818353
+                          ]
+                        },
+                        {
+                          "p": [
+                            50.739999999999995,
+                            16.7243
+                          ],
+                          "in": [
+                            52.14887839681835,
+                            16.7243
+                          ]
+                        },
+                        {
+                          "p": [
+                            20.409,
+                            16.7243
+                          ],
+                          "out": [
+                            19.000121603181647,
+                            16.7243
+                          ]
+                        },
+                        {
+                          "p": [
+                            17.858,
+                            14.1733
+                          ],
+                          "in": [
+                            17.858,
+                            15.582178396818353
+                          ]
+                        },
+                        {
+                          "p": [
+                            17.858,
+                            7.6533
+                          ],
+                          "out": [
+                            17.858,
+                            6.244421603181645
+                          ]
+                        }
+                      ],
+                      "closed": true
+                    }
+                  ]
+                },
+                "live": {
+                  "shape": "rectangle",
+                  "w": 35.43299999999999,
+                  "h": 11.622,
+                  "radii": [
+                    2.551,
+                    2.551,
+                    2.551,
+                    2.551
+                  ],
+                  "xf": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    17.858,
+                    5.1023
+                  ]
+                }
+              }
+            },
+            {
+              "id": 71,
+              "name": "Cut: USB-C window J1 host (opening + 0.3)",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "none"
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.0,
+                        "m": 1.0,
+                        "y": 0.0,
+                        "k": 0.0
+                      },
+                      "swatch": "CutContour"
+                    },
+                    "width": 0.25
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            219.21903,
+                            4.5354
+                          ],
+                          "in": [
+                            215.96275911499762,
+                            4.5354
+                          ]
+                        },
+                        {
+                          "p": [
+                            236.90703,
+                            4.5354
+                          ],
+                          "out": [
+                            240.16330088500237,
+                            4.5354
+                          ]
+                        },
+                        {
+                          "p": [
+                            242.80303,
+                            10.4314
+                          ],
+                          "in": [
+                            242.80303,
+                            7.175129114997642
+                          ]
+                        },
+                        {
+                          "p": [
+                            242.80303,
+                            11.7354
+                          ],
+                          "out": [
+                            242.80303,
+                            14.991670885002357
+                          ]
+                        },
+                        {
+                          "p": [
+                            236.90703,
+                            17.6314
+                          ],
+                          "in": [
+                            240.16330088500237,
+                            17.6314
+                          ]
+                        },
+                        {
+                          "p": [
+                            219.21903,
+                            17.6314
+                          ],
+                          "out": [
+                            215.96275911499762,
+                            17.6314
+                          ]
+                        },
+                        {
+                          "p": [
+                            213.32303,
+                            11.7354
+                          ],
+                          "in": [
+                            213.32303,
+                            14.991670885002357
+                          ]
+                        },
+                        {
+                          "p": [
+                            213.32303,
+                            10.4314
+                          ],
+                          "out": [
+                            213.32303,
+                            7.175129114997642
+                          ]
+                        }
+                      ],
+                      "closed": true
+                    }
+                  ]
+                },
+                "live": {
+                  "shape": "rectangle",
+                  "w": 29.480000000000018,
+                  "h": 13.096,
+                  "radii": [
+                    5.896,
+                    5.896,
+                    5.896,
+                    5.896
+                  ],
+                  "xf": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    213.32303,
+                    4.5354
+                  ]
+                }
+              }
+            },
+            {
+              "id": 74,
+              "name": "Cut: USB-C window J4 PD power in (opening + 0.3)",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "none"
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.0,
+                        "m": 1.0,
+                        "y": 0.0,
+                        "k": 0.0
+                      },
+                      "swatch": "CutContour"
+                    },
+                    "width": 0.25
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            271.65997,
+                            4.5354
+                          ],
+                          "in": [
+                            268.4036991149976,
+                            4.5354
+                          ]
+                        },
+                        {
+                          "p": [
+                            289.34797,
+                            4.5354
+                          ],
+                          "out": [
+                            292.60424088500235,
+                            4.5354
+                          ]
+                        },
+                        {
+                          "p": [
+                            295.24397,
+                            10.4314
+                          ],
+                          "in": [
+                            295.24397,
+                            7.175129114997642
+                          ]
+                        },
+                        {
+                          "p": [
+                            295.24397,
+                            11.7354
+                          ],
+                          "out": [
+                            295.24397,
+                            14.991670885002357
+                          ]
+                        },
+                        {
+                          "p": [
+                            289.34797,
+                            17.6314
+                          ],
+                          "in": [
+                            292.60424088500235,
+                            17.6314
+                          ]
+                        },
+                        {
+                          "p": [
+                            271.65997,
+                            17.6314
+                          ],
+                          "out": [
+                            268.4036991149976,
+                            17.6314
+                          ]
+                        },
+                        {
+                          "p": [
+                            265.76397,
+                            11.7354
+                          ],
+                          "in": [
+                            265.76397,
+                            14.991670885002357
+                          ]
+                        },
+                        {
+                          "p": [
+                            265.76397,
+                            10.4314
+                          ],
+                          "out": [
+                            265.76397,
+                            7.175129114997642
+                          ]
+                        }
+                      ],
+                      "closed": true
+                    }
+                  ]
+                },
+                "live": {
+                  "shape": "rectangle",
+                  "w": 29.480000000000018,
+                  "h": 13.096,
+                  "radii": [
+                    5.896,
+                    5.896,
+                    5.896,
+                    5.896
+                  ],
+                  "xf": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    265.76397,
+                    4.5354
+                  ]
+                }
+              }
+            },
+            {
+              "id": 72,
+              "name": "Cut: light pipe window (4.5; 515-1351 head 5.0 covers it)",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "none"
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.0,
+                        "m": 1.0,
+                        "y": 0.0,
+                        "k": 0.0
+                      },
+                      "swatch": "CutContour"
+                    },
+                    "width": 0.25
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            105.7323,
+                            11.9055
+                          ],
+                          "in": [
+                            105.7323,
+                            15.427972134420802
+                          ],
+                          "out": [
+                            105.7323,
+                            8.383027865579198
+                          ],
+                          "kind": "Smooth"
+                        },
+                        {
+                          "p": [
+                            112.1103,
+                            5.5275
+                          ],
+                          "in": [
+                            108.5878278655792,
+                            5.5275
+                          ],
+                          "out": [
+                            115.6327721344208,
+                            5.5275
+                          ],
+                          "kind": "Smooth"
+                        },
+                        {
+                          "p": [
+                            118.4883,
+                            11.9055
+                          ],
+                          "in": [
+                            118.4883,
+                            8.383027865579198
+                          ],
+                          "out": [
+                            118.4883,
+                            15.427972134420802
+                          ],
+                          "kind": "Smooth"
+                        },
+                        {
+                          "p": [
+                            112.1103,
+                            18.2835
+                          ],
+                          "in": [
+                            115.6327721344208,
+                            18.2835
+                          ],
+                          "out": [
+                            108.5878278655792,
+                            18.2835
+                          ],
+                          "kind": "Smooth"
+                        }
+                      ],
+                      "closed": true
+                    }
+                  ]
+                },
+                "live": {
+                  "shape": "ellipse",
+                  "w": 12.756,
+                  "h": 12.756,
+                  "pie": [
+                    0.0,
+                    360.0
+                  ],
+                  "xf": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    105.7323,
+                    5.5275
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 37,
+        "name": "Recess guide (not printed)",
+        "kind": {
+          "type": "layer",
+          "color": {
+            "Preset": 2
+          },
+          "template": false,
+          "printable": false,
+          "children": [
+            {
+              "id": 38,
+              "name": "Bezel recess 55.5 x 8.86",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "none"
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.84097815,
+                        "m": 0.36835665,
+                        "y": 0.0,
+                        "k": 0.0
+                      }
+                    },
+                    "width": 0.25,
+                    "dash": {
+                      "pattern": [
+                        1.0,
+                        1.0
+                      ],
+                      "offset": 0.0,
+                      "align_corners": false
+                    }
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            -0.567,
+                            -0.567
+                          ]
+                        },
+                        {
+                          "p": [
+                            156.756,
+                            -0.567
+                          ]
+                        },
+                        {
+                          "p": [
+                            156.756,
+                            24.548
+                          ]
+                        },
+                        {
+                          "p": [
+                            -0.567,
+                            24.548
+                          ]
+                        }
+                      ],
+                      "closed": true
+                    }
+                  ]
+                },
+                "live": {
+                  "shape": "rectangle",
+                  "w": 157.323,
+                  "h": 25.115,
+                  "radii": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "xf": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    -0.567,
+                    -0.567
+                  ]
+                }
+              }
+            },
+            {
+              "id": 39,
+              "name": "Bezel recess 55.5 x 8.86 (back)",
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "none"
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "cmyk",
+                        "c": 0.84097815,
+                        "m": 0.36835665,
+                        "y": 0.0,
+                        "k": 0.0
+                      }
+                    },
+                    "width": 0.25,
+                    "dash": {
+                      "pattern": [
+                        1.0,
+                        1.0
+                      ],
+                      "offset": 0.0,
+                      "align_corners": false
+                    }
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            175.622,
+                            -0.567
+                          ]
+                        },
+                        {
+                          "p": [
+                            332.94500000000005,
+                            -0.567
+                          ]
+                        },
+                        {
+                          "p": [
+                            332.94500000000005,
+                            24.548
+                          ]
+                        },
+                        {
+                          "p": [
+                            175.622,
+                            24.548
+                          ]
+                        }
+                      ],
+                      "closed": true
+                    }
+                  ]
+                },
+                "live": {
+                  "shape": "rectangle",
+                  "w": 157.32300000000004,
+                  "h": 25.115,
+                  "radii": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "xf": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    175.622,
+                    -0.567
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "swatches": [
+      {
+        "name": "[None]",
+        "paint": {
+          "type": "none"
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Paper (process white)",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.0,
+            "y": 0.0,
+            "k": 0.0
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Black",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.0,
+            "y": 0.0,
+            "k": 1.0
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Red",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.88,
+            "y": 0.85,
+            "k": 0.07
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Orange Red",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.63,
+            "y": 0.85,
+            "k": 0.05
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Orange",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.4,
+            "y": 0.88,
+            "k": 0.03
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Amber",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.3,
+            "y": 0.76,
+            "k": 0.02
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Yellow",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.06,
+            "y": 0.87,
+            "k": 0.01
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Yellow Green",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.03,
+            "m": 0.0,
+            "y": 0.85,
+            "k": 0.12
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Lime",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.29,
+            "m": 0.0,
+            "y": 0.68,
+            "k": 0.22
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Green",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.69,
+            "m": 0.0,
+            "y": 0.59,
+            "k": 0.29
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Emerald",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 1.0,
+            "m": 0.0,
+            "y": 0.53,
+            "k": 0.43
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Teal",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 1.0,
+            "m": 0.0,
+            "y": 0.47,
+            "k": 0.59
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Aqua",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.81,
+            "m": 0.0,
+            "y": 0.36,
+            "k": 0.29
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Cyan Green",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 1.0,
+            "m": 0.0,
+            "y": 0.07,
+            "k": 0.34
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Cyan",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.82,
+            "m": 0.24,
+            "y": 0.0,
+            "k": 0.11
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Azure",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 1.0,
+            "m": 0.4,
+            "y": 0.0,
+            "k": 0.26
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Blue",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.68,
+            "m": 0.66,
+            "y": 0.0,
+            "k": 0.43
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Indigo",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.73,
+            "m": 0.8,
+            "y": 0.0,
+            "k": 0.61
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Violet",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.3,
+            "m": 0.69,
+            "y": 0.0,
+            "k": 0.43
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Purple",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.73,
+            "y": 0.03,
+            "k": 0.42
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Magenta",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 1.0,
+            "y": 0.41,
+            "k": 0.38
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Rose",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.91,
+            "y": 0.58,
+            "k": 0.17
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Pink",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.87,
+            "y": 0.49,
+            "k": 0.07
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Brown",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.11,
+            "y": 0.23,
+            "k": 0.22
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Tan",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.12,
+            "y": 0.24,
+            "k": 0.4
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Coffee",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.14,
+            "y": 0.24,
+            "k": 0.55
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Chocolate",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.14,
+            "y": 0.22,
+            "k": 0.67
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Sand",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.21,
+            "y": 0.45,
+            "k": 0.22
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Copper",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.25,
+            "y": 0.51,
+            "k": 0.35
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Rust",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.3,
+            "y": 0.59,
+            "k": 0.45
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Walnut",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.35,
+            "y": 0.69,
+            "k": 0.54
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Espresso",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.42,
+            "y": 0.8,
+            "k": 0.62
+          }
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "White, Black",
+        "paint": {
+          "type": "gradient",
+          "gradient": {
+            "kind": "Linear",
+            "stops": [
+              {
+                "offset": 0.0,
+                "color": {
+                  "model": "cmyk",
+                  "c": 0.0,
+                  "m": 0.0,
+                  "y": 0.0,
+                  "k": 0.0
+                },
+                "opacity": 1.0,
+                "midpoint": 0.5
+              },
+              {
+                "offset": 1.0,
+                "color": {
+                  "model": "cmyk",
+                  "c": 0.0,
+                  "m": 0.0,
+                  "y": 0.0,
+                  "k": 1.0
+                },
+                "opacity": 1.0,
+                "midpoint": 0.5
+              }
+            ]
+          },
+          "angle": 0.0
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Radial White, Black",
+        "paint": {
+          "type": "gradient",
+          "gradient": {
+            "kind": "Radial",
+            "stops": [
+              {
+                "offset": 0.0,
+                "color": {
+                  "model": "cmyk",
+                  "c": 0.0,
+                  "m": 0.0,
+                  "y": 0.0,
+                  "k": 0.0
+                },
+                "opacity": 1.0,
+                "midpoint": 0.5
+              },
+              {
+                "offset": 1.0,
+                "color": {
+                  "model": "cmyk",
+                  "c": 0.0,
+                  "m": 0.0,
+                  "y": 0.0,
+                  "k": 1.0
+                },
+                "opacity": 1.0,
+                "midpoint": 0.5
+              }
+            ]
+          },
+          "angle": 0.0
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Sunset",
+        "paint": {
+          "type": "gradient",
+          "gradient": {
+            "kind": "Linear",
+            "stops": [
+              {
+                "offset": 0.0,
+                "color": {
+                  "model": "cmyk",
+                  "c": 0.0,
+                  "m": 0.3,
+                  "y": 0.76,
+                  "k": 0.02
+                },
+                "opacity": 1.0,
+                "midpoint": 0.5
+              },
+              {
+                "offset": 1.0,
+                "color": {
+                  "model": "cmyk",
+                  "c": 0.0,
+                  "m": 0.91,
+                  "y": 0.58,
+                  "k": 0.17
+                },
+                "opacity": 1.0,
+                "midpoint": 0.5
+              }
+            ]
+          },
+          "angle": 0.0
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "Ocean",
+        "paint": {
+          "type": "gradient",
+          "gradient": {
+            "kind": "Linear",
+            "stops": [
+              {
+                "offset": 0.0,
+                "color": {
+                  "model": "cmyk",
+                  "c": 0.82,
+                  "m": 0.24,
+                  "y": 0.0,
+                  "k": 0.11
+                },
+                "opacity": 1.0,
+                "midpoint": 0.5
+              },
+              {
+                "offset": 1.0,
+                "color": {
+                  "model": "cmyk",
+                  "c": 0.68,
+                  "m": 0.66,
+                  "y": 0.0,
+                  "k": 0.43
+                },
+                "opacity": 1.0,
+                "midpoint": 0.5
+              }
+            ]
+          },
+          "angle": 0.0
+        },
+        "global": false,
+        "spot": false
+      },
+      {
+        "name": "White",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 0.0,
+            "y": 0.0,
+            "k": 0.0
+          }
+        },
+        "global": true,
+        "spot": true
+      },
+      {
+        "name": "CutContour",
+        "paint": {
+          "type": "solid",
+          "color": {
+            "model": "cmyk",
+            "c": 0.0,
+            "m": 1.0,
+            "y": 0.0,
+            "k": 0.0
+          }
+        },
+        "global": true,
+        "spot": true
+      }
+    ],
+    "swatch_groups": [
+      {
+        "name": "Grays",
+        "swatches": [
+          {
+            "name": "K=90",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "gray",
+                "k": 0.9
+              }
+            },
+            "global": false,
+            "spot": false
+          },
+          {
+            "name": "K=80",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "gray",
+                "k": 0.8
+              }
+            },
+            "global": false,
+            "spot": false
+          },
+          {
+            "name": "K=70",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "gray",
+                "k": 0.7
+              }
+            },
+            "global": false,
+            "spot": false
+          },
+          {
+            "name": "K=60",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "gray",
+                "k": 0.6
+              }
+            },
+            "global": false,
+            "spot": false
+          },
+          {
+            "name": "K=50",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "gray",
+                "k": 0.5
+              }
+            },
+            "global": false,
+            "spot": false
+          },
+          {
+            "name": "K=40",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "gray",
+                "k": 0.4
+              }
+            },
+            "global": false,
+            "spot": false
+          },
+          {
+            "name": "K=30",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "gray",
+                "k": 0.3
+              }
+            },
+            "global": false,
+            "spot": false
+          },
+          {
+            "name": "K=20",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "gray",
+                "k": 0.2
+              }
+            },
+            "global": false,
+            "spot": false
+          },
+          {
+            "name": "K=10",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "gray",
+                "k": 0.1
+              }
+            },
+            "global": false,
+            "spot": false
+          }
+        ]
+      },
+      {
+        "name": "Brights",
+        "swatches": [
+          {
+            "name": "Bright Red",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "cmyk",
+                "c": 0.0,
+                "m": 0.89,
+                "y": 0.85,
+                "k": 0.0
+              }
+            },
+            "global": false,
+            "spot": false
+          },
+          {
+            "name": "Bright Yellow",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "cmyk",
+                "c": 0.0,
+                "m": 0.1,
+                "y": 1.0,
+                "k": 0.0
+              }
+            },
+            "global": false,
+            "spot": false
+          },
+          {
+            "name": "Bright Green",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "cmyk",
+                "c": 1.0,
+                "m": 0.0,
+                "y": 0.49,
+                "k": 0.1
+              }
+            },
+            "global": false,
+            "spot": false
+          },
+          {
+            "name": "Bright Blue",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "cmyk",
+                "c": 0.84,
+                "m": 0.53,
+                "y": 0.0,
+                "k": 0.0
+              }
+            },
+            "global": false,
+            "spot": false
+          },
+          {
+            "name": "Bright Violet",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "cmyk",
+                "c": 0.14,
+                "m": 1.0,
+                "y": 0.0,
+                "k": 0.02
+              }
+            },
+            "global": false,
+            "spot": false
+          }
+        ]
+      }
+    ],
+    "graphic_styles": [
+      {
+        "name": "Default Graphic Style",
+        "appearance": {
+          "items": [
+            {
+              "kind": "fill",
+              "paint": {
+                "type": "solid",
+                "color": {
+                  "model": "rgb",
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0
+                }
+              }
+            },
+            {
+              "kind": "stroke",
+              "paint": {
+                "type": "solid",
+                "color": {
+                  "model": "rgb",
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0
+                }
+              },
+              "width": 1.0
+            }
+          ]
+        },
+        "id": 1,
+        "unit_box": true
+      },
+      {
+        "name": "Black Outline",
+        "appearance": {
+          "items": [
+            {
+              "kind": "fill",
+              "paint": {
+                "type": "none"
+              }
+            },
+            {
+              "kind": "stroke",
+              "paint": {
+                "type": "solid",
+                "color": {
+                  "model": "rgb",
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0
+                }
+              },
+              "width": 1.0
+            }
+          ]
+        },
+        "id": 2,
+        "unit_box": true
+      },
+      {
+        "name": "Heavy Ink",
+        "appearance": {
+          "items": [
+            {
+              "kind": "fill",
+              "paint": {
+                "type": "solid",
+                "color": {
+                  "model": "rgb",
+                  "r": 0.105882354,
+                  "g": 0.078431375,
+                  "b": 0.39215687
+                }
+              }
+            },
+            {
+              "kind": "stroke",
+              "paint": {
+                "type": "solid",
+                "color": {
+                  "model": "rgb",
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0
+                }
+              },
+              "width": 4.0
+            }
+          ]
+        },
+        "id": 3,
+        "unit_box": true
+      },
+      {
+        "name": "Sunshine",
+        "appearance": {
+          "items": [
+            {
+              "kind": "fill",
+              "paint": {
+                "type": "solid",
+                "color": {
+                  "model": "rgb",
+                  "r": 0.9843137,
+                  "g": 0.6901961,
+                  "b": 0.23137255
+                }
+              }
+            },
+            {
+              "kind": "stroke",
+              "paint": {
+                "type": "solid",
+                "color": {
+                  "model": "rgb",
+                  "r": 0.94509804,
+                  "g": 0.3529412,
+                  "b": 0.14117648
+                }
+              },
+              "width": 2.0
+            }
+          ]
+        },
+        "id": 4,
+        "unit_box": true
+      }
+    ],
+    "symbols": [],
+    "guides": [],
+    "grid": {
+      "spacing": 72.0,
+      "subdivisions": 8
+    },
+    "raster_effects_ppi": 300.0,
+    "images": {},
+    "next_id": 76,
+    "setup": {
+      "bleed": [
+        2.835,
+        2.835,
+        2.835,
+        2.835
+      ],
+      "outlineImages": false,
+      "highlightSubstitutedFonts": true,
+      "highlightSubstitutedGlyphs": false,
+      "gridSize": "medium",
+      "gridColors": [
+        {
+          "model": "rgb",
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        {
+          "model": "rgb",
+          "r": 0.8,
+          "g": 0.8,
+          "b": 0.8
+        }
+      ],
+      "simulatePaper": false,
+      "flattenerPreset": null,
+      "discardWhiteOverprint": true,
+      "language": "English: USA",
+      "quotes": {
+        "double": [
+          "‚Äú",
+          "‚Äù"
+        ],
+        "single": [
+          "‚Äò",
+          "‚Äô"
+        ]
+      },
+      "typographersQuotes": true,
+      "superscript": {
+        "size": 58.3,
+        "position": 33.3
+      },
+      "subscript": {
+        "size": 58.3,
+        "position": 33.3
+      },
+      "smallCapsSize": 70.0,
+      "exportText": "editable",
+      "background": "transparent"
+    },
+    "metadata": {
+      "author": "",
+      "authorTitle": "",
+      "description": "",
+      "keywords": [],
+      "rating": 0,
+      "copyrightStatus": "unknown",
+      "copyrightNotice": "",
+      "copyrightUrl": "",
+      "created": 1795126319,
+      "modified": 1795180396
+    },
+    "last_view": {
+      "name": "",
+      "center": {
+        "x": 94.33953972440287,
+        "y": 87.96054481769994
+      },
+      "zoom": 1.3434866023152263,
+      "rotation": 0.0
+    },
+    "layers_open": [
+      1
+    ]
+  },
+  "images": {}
+}
+ VCBLOBS %PDF-1.7
+%ÄÄÄÄ
+
+1 0 obj
+<</Type/Pages/Count 2/Kids[12 0 R 13 0 R]>>
+endobj
+2 0 obj
+[/Separation/White/DeviceCMYK<</FunctionType 2/Domain[0 1]/Range[0 1 0 1 0 1 0 1]/C0[0 0 0 0]/C1[0 0 0 0]/N 1>>]
+endobj
+3 0 obj
+[/Separation/CutContour/DeviceCMYK<</FunctionType 2/Domain[0 1]/Range[0 1 0 1 0 1 0 1]/C0[0 0 0 0]/C1[0 1 0 0]/N 1>>]
+endobj
+4 0 obj
+<</ProcSet[/PDF/Text/ImageC/ImageB]/ColorSpace<</c0 2 0 R/c1 3 0 R>>/Font<</f0 6 0 R/f1 9 0 R>>>>
+endobj
+5 0 obj
+<</ProcSet[/PDF/Text/ImageC/ImageB]/ColorSpace<</c0 2 0 R/c1 3 0 R>>/Font<</f0 6 0 R/f1 9 0 R>>>>
+endobj
+6 0 obj
+<</Type/Font/Subtype/Type0/BaseFont/AMHRAU+Arial-BoldMT/Encoding/Identity-H/DescendantFonts[7 0 R]/ToUnicode 15 0 R>>
+endobj
+7 0 obj
+<</Type/Font/Subtype/CIDFontType2/BaseFont/AMHRAU+Arial-BoldMT/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement 0>>/FontDescriptor 8 0 R/DW 0/CIDToGIDMap/Identity/W[0 0 750 1 1 722.16797 2 2 666.9922 3 3 833.0078]>>
+endobj
+8 0 obj
+<</Type/FontDescriptor/FontName/AMHRAU+Arial-BoldMT/Flags 131076/FontBBox[70.80078 -12.207031 762.20703 715.8203]/ItalicAngle 0/Ascent 728.02734/Descent -210.44922/CapHeight 715.8203/StemV 168.6/CIDSet 14 0 R/FontFile2 16 0 R>>
+endobj
+9 0 obj
+<</Type/Font/Subtype/Type0/BaseFont/ZBQVTF+Arial-Black/Encoding/Identity-H/DescendantFonts[10 0 R]/ToUnicode 18 0 R>>
+endobj
+10 0 obj
+<</Type/Font/Subtype/CIDFontType2/BaseFont/ZBQVTF+Arial-Black/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement 0>>/FontDescriptor 11 0 R/DW 0/CIDToGIDMap/Identity/W[0 0 750 1 3 666.9922 4 5 833.0078 6 6 722.16797 7 8 777.83203 9 9 722.16797 10 10 777.83203 11 11 333.4961 12 12 833.0078 13 13 722.16797 14 14 389.16016 15 15 833.0078 16 16 1000 17 17 722.16797 18 18 777.83203 19 19 943.84766]>>
+endobj
+11 0 obj
+<</Type/FontDescriptor/FontName/ZBQVTF+Arial-Black/Flags 131076/FontBBox[-0.48828125 -12.6953125 1000.4883 728.02734]/ItalicAngle 0/Ascent 715.8203/Descent -211.91406/CapHeight 715.8203/StemV 217.40001/CIDSet 17 0 R/FontFile2 19 0 R>>
+endobj
+12 0 obj
+<</Type/Page/Resources 4 0 R/MediaBox[0 0 156.18898 23.981102]/BleedBox[0 0 156.18898 23.981102]/TrimBox[0 0 156.18898 23.981102]/Parent 1 0 R/Contents 20 0 R>>
+endobj
+13 0 obj
+<</Type/Page/Resources 5 0 R/MediaBox[0 0 156.18898 23.981102]/BleedBox[0 0 156.18898 23.981102]/TrimBox[0 0 156.18898 23.981102]/Parent 1 0 R/Contents 21 0 R>>
+endobj
+14 0 obj
+<</Length 9/Filter/FlateDecode>>
+stream
+xú˚   Ò Ò
+endstream
+endobj
+15 0 obj
+<</Length 356/Type/CMap/Filter/FlateDecode/WMode 0>>
+stream
+xúmR=o√ ›˝+ÆR2§∆qªDë•÷©%˘Pµ≥g)xøØ¿vRU Ωªw˜ﬁ‰ÈT≠ﬁ∏∫‚*}¶pF´z√pïÔk≤S¨ÔP∫"G>gÌ¥QÃ¢Éº‹ïR∏àêR≤[œqÊ¸Gy«V»¡k@ﬁ[ß∫àêãp7‹¿b@%GÈÑÄ.#B>—X°‰íàê…s’ys6ä'àOF±
+4Br3)¡’ÎF…∏`nBag]≠Cq5Xá])È»‚Ωûò  Ò[aù`å-Åc3féÜ£≤Ö≈lˆW≤Íµæ°7	4DQÚp∆~¯C›!ƒ”¿˜Ë4%$è–e–85àøˆäœ -2≈—Íö°©eã—ñRJ3ÿEQd^ÒO>´Æ˚ÆM`'l)}}ÕZèàé(Ëe:M5æßø∫˚¨7•7{{B‚˝	¥“æ*¨vÛ7ËX¸ wíœ≥
+endstream
+endobj
+16 0 obj
+<</Length 8957/Filter/FlateDecode>>
+stream
+xúÌ|tT’Ω˜oˇ˜ôg^ìBÑs¬êôBL @$3y	è gjûH P†I|}j∞Í£Ìµï(≠®úL|Lx‘XkØmµ`mΩ≠Õjµ≠Vn˝z’˙Q…|kÔ3ì†Î∂ﬂ∫ﬂ∫w-Nò≥ˇ˚ˇÿˇÁﬁ˚úM&` b–éºÜ-¸‚ìW8XjØm›∏ÂËÙƒCÄu2`^¥qÛç◊Æªø˚øPZõõÍˇ˛≥SÔ IØ ò€‹‹Tó‘a}ò† ò÷º%p√§•`¬ éÕ-uÙ+&∞o©ª°’rn‚›¿Ñr ⁄÷∫-MÁÓß`B#0„á≠-mÅLº	y≠u{S+_1˜)†x1ê¯âÈ(&Àœ£ò¨∏0ø˝o
+ø+h¢• ñi|"WO‡M6ÉiËgg1	ü±46K†‡o‡8Çs∏…®¡,	”êÇ5X¬ñ∆‹∏ã=ﬁ~W‡x$¸ª9¸8Rp~åœ0Ô(Û∞k∞Mxüø¯_`≈Ìà¡B¨b)®√xü ∏˜·lO¯3(H∆Õ¯ä·Ö7¸B¯sÃƒ]JèÈ¥ÌÏ√1f7Ñ7a
+¶¢õ‹·7¬øÖ~¿Lan6®,FÆ«m¯K„?∆ı∏ﬂ√0ã•ºÃÙ<Ä%Xã≠ÿân<éü≤$Vm:m˙(º;¸Gò13PáMxü≤etPâ/
+øç´1ÄóYö¸TÆV5]=\˛n¯áòàÁòùg/òÚMwüª)¸p¯)ƒ¬Ö9∏À±ı∏/‡'¯ﬂ¯+uÜ;±´±/±L¶1õ¡ﬁ†4Í†˛:f¡ã∏ÌÿA≈1ú¿¯7·=ñÃ2ÿWX=€«˛J±‘H'˘É¸i˛KÖ)ﬂG
+ú»∆Lpœ‚ºäìÃƒ4ñ«™Ÿu¨Ö}ì}óëN“ﬂ´rãÚwÂú…5<4¸˜Ú'HE:ñb:±–èßÒs¸
+≈‡SÊ`E¨ô=Ãt6ƒ>$M•‘J–Azí/Á˚¯J°R™\Øº™ºm˙_¶Ωñ:ÀÁáÜÔ~r¯µs·◊¿èT∏PâM∏	˜‡ û«Î¯ﬁ¬o;Q?¨à-dÎÿWY3kcw∞˚ÿìÏ%ˆ˚Ä˝ï ¶“B*ß‘B€©Én¶{È>:H'È$ù¢∑È7Ùg˙Ñõ¯T>óo„sùá¯)˛≈°∏îY eÖ≤N	õÚM˘¶+M´Mèôõ~h˙»\ln4∑öˇdπŸr´ıïs3œΩ3å·Êa}∏?¸8¨cˆ·!<Ç#x«SºÇü„-·cñÃ“YõŒ‹l>´dUlªä≠gMÏfv;˚˚{ê=¬ûb/	»BS…M^ZMu‘D∑“ÌÙuzöû¶£ÙzÉN”˙ÑO‚NÓÊs¯æé_Õ∑Úm<¿;¯≠|ﬂ«Á'˘Î¸è¸O¸åbU&)SîveóÚmÂQÂiÂ5”R”””#¶ÁMÉ¶◊Lüõ>7ì9›<Ÿ<€|ù˘1ÛÔ,fÀ\KµÂNÀ/-ˇameìŸLñŒ¥ë˘Ä“É)Ù8%+ùÏÄL¶ ˚‡fw∞’,â˝J¯0kfÒÇŒ∑Úâî¶Lífè¢`«P»^Bßô8î!ŸØiHyëÆ¿ØX-KSÂ[M?•,V\Ë°„tåï‚i*¶µÙˆ{Ô·z‹Ä˚ÿı¨áŸ∂Ä}çÕcù¯%•’ÏVá!ÖŸÿˆ∂Úâ∏IiƒWÒ•õè_„˝·áî8es#Ñ‡«¯-˚>Œ2S¯CL«‘A¡]8Ä€ VΩxùÃ≈“ò¬6õO‚if,ÛÃãî]¯ˇÔõé*.•ˇqxìÚêÚ˚ºp.”ƒ,√c†W‚Øxo·ìΩıX;f ^TcÒ5‹é}a=¸ù-·√-¯”pñÂ∞≥¨øBÎQåóÒ2Ó¡[l/˙!ˆù‚nƒ >`©,õÂsùü1Ì0ıò7=m˙ÅÈUÛ‹Ä[Ò ^¡Ô1≥3ç5‡5|Äø1++ErP /ä∞>l&??Å2ñéVºéòá“à'm∏7„.|q?«GÃ¡÷„8ÕàMb9¨0+º®¬\É6b6vÎáçòÇô¯3Œ≤xVD‰¿ÉõÒ û≈ ^¡ØÒ|Ñ∞¥+á-dÂl-k¿ﬂpôÉÕE5Î¬œb>ñ£úøÇ˜0ç9P ¶≤Ô·#‘bÒ»ƒ|”Ô!gxy∏à6Ò,aƒ£5»¿lºH@5Œa"[Å¬·U»¡Îå+:˚Ö¥‚€‘æùÔﬁåü·˚Xè≤√RÆlWnS˛Ó)]S„)YtEÒ¬ÛãÊ\û?'oˆ¨‹˜ÃÀfLweOsNÕ“‘)ôì3“”R'•LLûêîËHàèãç±€¨≥I·ƒêS·¨¨’tW≠Æ∏úãÁäæ≥N”]ucµ∫VßÈï„ytM»’È⁄xNOù¶_{ß«‡Ùåp2áVå‚‹≠¬©ÈØñ;µ[∑“Á‘ÙØó;˝ö~F¬À$‹#·∏rß?++7G”*RõÀ5ù’jzÂéÊÓä⁄Ú‹÷c/sñ5Ÿss–gè)sñ≈‰Ê@ü‰lÌcì1	–§ä}k\nNÖûÓ,Ø–”úÂ¬ùgW‘5Í’+}ÂYY˛‹ùï58Îu8Kı∑dAôT£õÀtãT£mﬁ`Ø÷ó3ÿ}W»Å˙Zwl£≥±nΩOÁu~°#—≠OrñÎìvΩõ:⁄ÕÕ—ì |∑è•fÓä‘MöËvwﬂÆÈÉ+}c©Y‚Ó˜ßÊÊ‰ÊËî]Y€]©{ÍÓZúõSµZ[Ô”È6øOg∑˘ss4·â Ø…Y!0µ◊i∫ÕYÍlÓæÆ∂N””ªu¨∫1+òûÓ!ΩBÎÆÒ9≥ÙíßøÆ|r_2∫W›ÿüÊ—“∆Srs˙âF`˚‚"@l‹X†iÑ&!….†™U#ëe¬"Á›S´köéU>ßNŸE‚÷TÑÓÜ¢å,q˘YnNïﬁ∏“W±I∑ï’v;ºê◊MŸß÷˝	tVÎ<Û·xL]cŒv|ä:)5ù’Ea›Ì÷gŒ%b)”Õ¬ÉE≤_òõ≥#Dsù≠-Ds+4’>ù’˘ÃNÕÕ… 	ﬁÚ†>7'KÔZÈ3˙Í3ÇÃv˚u™î¡(e‚AÈäRFƒkùYπ9OC<ŸO‘≠Æë	éî	ÕtñÚ%‰&É^µ⁄YµrùO´ËÆçƒ∂™f\œ†ç–"ê>°Ã«3(QóT=©l˝≥Ë¯bu%[W≤Õ≤®uæ“g òV©;jwø=+ÎeBÎ°P¯#!%õQ±àï˙˜¯˛¬q˝q÷≈vÛ™]qQUÕ∫Ón˚8Z•≥≤∂ªª“©Uv◊v◊Ö¬]ıNÕ·Ï†GÈ—Ó÷ä⁄hBC·£{3Ù ª¸∫£∂ô-»ÕÈ#îˆ9Ÿ+˚<Ïé’Î|@ª£∆$Feµ•˛æiÏéïæH,	¨@äé&:®bU´|A≤J˛å–%©äD»~CàA‚¶Bd‡Ü"óT‰°!§Oî[AC»j‡∫Ón+BA9
+bÄ$óX4 j|cÀAŒ1Æx‰5fÇ	‡∞†Ùib√fKàJ<`RÜ9Ïeò!Õj6?Œ\∞1ù•"’Ì¯¥¯\Òr««≈ÀŒ£§¯\±„Û‚s≈sÚ≤≥≥≥≥|ÆÒ¡œ=&¸ö20‹˛£iöÈ(“–Ì)≤X-6ãcí5≈v•ıJõÂ*€Z«éo&~k‚É)è:ûKys‚{ÊOÕ1q±±d…û`ãç—‚N∆≥¯ÌıLıdTg‘f÷åÆ“2Ú2z33îF¥¥º¥¡4û¢Ω˝Ès⁄S›ÀoV.slÿ∂˝S	¢‰LIq±£xN€∞mBVbÚ§îîÀÛÁŒ-LÃJtƒìs™À5›Ux/õ3·û=]ÈlFﬁMßü˙≈[…ô¶£üˇ·D—∫-xäª?˛ÏÌ¸uÆÈ¯ ‹(üôé"ÿÈ…6õíR˘ï&∂—ÙÜâí≥„‚„ë·»&F	∞¶L?bañPx∞ﬂS`	—]û53/≥6≥5≥+”îÈH–òÜ<Ñ+ìÁ¨Î ∂O›€ñùAI±}“¸Ÿ2ˆÿ∞çm∏<1Kõîí21Ÿl∂òùŒ4íé∏¶ªú˜≥cÒ´:ØˇÊÚÎ~Ú¬#Gvî}uqaØÈhJ÷oé‹⁄î8Ò‹õ ákg’{´õ„Ï`ÿò”LGK©ûòÓ≤∫b∏¬Öª<∂…
+Ï⁄ÇÖ∂Px®?“zæ7yVÅ]õ<´¿l≥⁄o˚–Æ(6ª}MV6’Ó§E≥Õ∂o§f•…vù}'›†|œˆ∏˝€Q˚ß∂≥ˆî˝Jèmø˝«∂üÿﬂ§” ∂∑Ï§?)ÔŸ>∞«Ì¥›`øÖÓRn±›eÔ!ã/¶âÆS6⁄öÌ;ËF≈RNUJπ≠ ~ïı*õœnIµœé/†JÅm°Ω$ﬁ¬)V1€lˆâîÆL≤Y˙ÃbBxTR∏›fäµXÚÕÒ±˘ wp≤V[„
+bƒMzW`ıƒO/à7
+«„@åï3(å,vXQR\\Rúò4iæ[^ÿÏ3é_ûàåPx°'ó€möbµŸÚπíÃπB1v{>ßdŒ)∆ y¨Bk∑€l´* õ≈ıãG≥£TSx∞ˇÍ¶Px–3iuMÅ)ﬂ‚±tZôıD'g¸DåK!*Ú$1¿sıÜxV◊ _çe±bò8Q˛éè∑ùqª≈ˇÓ(NOsú€vn[qz™„ú€˝Ôéb«ª€PRÏ(vó'Möªiñ˚ˆØ˝ËˆY©¢q˚Á‰±*}¬jﬂ ¨·°æ≠®»œ6»k€v·(‹€Dπ1&&=Àbâ˚ÿ1fgv|¯ÃoÜ?¸éÈËÁ©¸Og+ïõˇﬁ!>rK≥$~xØı˘5◊$bM≥ 7ÑG~_,O~˛p¨®˘ÏŸœœ9`›õ‰óØPÄe—rî9pˆÏŸ]âw)f0ò˛˜ö÷‚~Û„¢v1áX<âì,¡≠–/På˚`¡ÅŸXX™?Å	`1øbãb∫Q¿vŸ0¡J”"0«" â¿
+íÈ∫lB*uD`3RÈÅlA#=Å≠»„IÿÜn^Å„‚˛
+8ò¬AàO<Å§'æ#aa©=Ò≥¨ %â$,<2'•F`IIS$l6'ÂE`…IE∂Çõ¥4+HMÚIÿ–î§÷l¯n¿ÜÔl¯n¿ÜÔl¯n¿ÜÔlA}Ú›ÿ›Äﬂ8.>9˘#	€ÖÔN%+Hw¸1 $9Ω1P0≈πH¬±¬6Á˙¨ ŸŸ(·xëeÁX¡dÁv»qæÅ≈8œJxÇà°ÛóXAíÛm	'K{>å¿¬û≥ûBÚ¥‰¨@õ6C¬)Ç⁄‚¨ }⁄Z	ßI~#∂iíˇV	gàúN3Ï…9ùˆîÑ3Ö=”~Å$M˚©ÑU…ˇÎ,¯ˇ ·i"ß”>è¿
+R≥≠û)‚ì≠E`…ŸÜùπbúÏ‚¨ %ªR¿÷1Ò∑éâøuå_÷1~≈é·è√;&/±—º|Úëá|ÃÖÜ4£	ñ°[—Ç nD´ƒî°€—*Ôu`ì‰ò^l∆fhXÖMÿàf–&{MhC∂cö–(9„á≈hB=∂£	;°aÖ}+jFÙ,EnD⁄ÄÜÕh¡FlB44†≠∏€GÙh#÷Á·rhpçÙÊ!G⁄PáÕhE34,F∂ 1p}Ñ˜+hA3∂Jjª<±à˙$‚∞I˙±˘ÌπV∆BC)6°õ%VË”ŒÛ—ß%‚©&µ¥c;§ø¢w-ÿâ:)°°[—(#ß…3##KP#£#¥àqDlJ˘&…—Ñ-®óë≤ç“÷±ºöƒ∑°A∆Øu$É£~z@ûjoFõ<gú¬£R¥`3/®äcx¥.3∞LÍﬁéñˇ.ª(ÔZÈg€à-Û0Kfoî7wåˆöqcD#['„$™Rx∞E∆QdXË˝g*˙ï∏êo¥öÀ%ÁNl¬Vlîı~-Æç‰ECÆ¨—‘K∫ÜÂí“,˝≠Cõ¨·j©Ix› =◊∞ucjDD`Ê£˘â∫®èv¥¢UVÉQ"ﬂ[êuÓóµ®…®›(kœ®QwFt£‹◊"g°®RaSì¥ØQÚâÒ≈#Êô–”*≠6d≈ºPS§/º¬É-ÿÑÄ§	©ziG¥ÓœØ·@D¬òQ€/¿\;‚CŒHt]ac—éàsFmdÕ2ÙÊåË9ﬂ#c;eúDŒ.31´€"‹ÿ,WôËjx~ÏÖÃf	Õ¿&\6nN_|t√Ü6∂cWåh}ä‹∂ç‘[¥¬/ÊAT˚Öv-S¬√a√ñëπ#∆7|mDvJœ[‰˛≤⁄´WU∆
+idß%‚ïãµ∫5≤bk£Ÿåé#8≈æe5jÏl[#ô=:Cç˙ˆä9lƒyñ‹Á¢´àAÏè¬Àhî«Wµ®±zô5#Æ∆Jx˛ ˛Lò!w@·ÁÃ∆lIô%u\/◊w1ñX/f…mƒÏ⁄Ï»ò◊ú∑õ\ôΩ£´E€Hƒ¢÷¸#˚ır‘&ü7∆“ËZÊH5_áñHû¢U#≤*≤hÏ´£’˝e{~¥*øxﬂô´ô9mcv&#ﬂF4Etmîµl‘L£åﬁµí⁄4≤ˆàïAT˚∆Hû£ul‘ï1GÌB¢>≤ˇn©î∫1œ=ÁØgˇπâêà∫∞Àÿs¢Îáò´h«ñ»›Ö1£çöôµÒãs+˜±qO>Zf§çâéÆ3˙¯%„…’WÃ…ÊÓãØn9Á≠n—ÿü/-¢f¨ßc˝é⁄5˙T::kFw¢hºEÓ8õpÌHøiLÖàuÀ»Pö«Ï∞Ü’ı“ÉSÏÏıYKåŒéd\`çÁs√ÜËº_Kˇ˘®é›·/«Ó4„kz4bül¡ñ2è—›@<5oçD&∫+µ"ÓBÁh\ÆCìÃÒ˘+ÿ≈÷ccÂq›Òå[≈ÎPèπ‚\¸=ƒx˛ãÓ2£ÒâÓd≠]S∆K	ØÍ"π˚ÚÔπu_ê—Ì#ﬁãz1V¶Ë”≤±Ûé›—ˇŸ
+àÓoãQ!©+Pâ\/VIÃ¨ñœ≠´∞k±Â®@94LáWR}∫Ã‘UrZåX#˜8cåUb9j‡ók\•‹áóÀ^ñàˇ”ï≤IX-G]ÅUrÏe®∆R,ë:üê(√R¨AπÑØî´†°o9VDﬁ™Ñú∞≈∞¥+‰›pºUb‰’#ñ-CV°ã#T/J±Dé'Ï˙+%º|ƒŒ à•^#1≤≥k∞TˆvV°+∞ZÍ#óG¨].}®ƒ™à/“°YÏ^gâ¯¨çPDéÑ}K±tåW^˚Uc‚WÜ®Ü_é%Ki¡≥Tf—‡,ïÚ¬G·ÌRŸı »îà∏WFUƒ†^,ÉW⁄;™kEƒñUcFª´$}îÀœπó…»âòD≥!¨ØäPs"π1æP´®>a¡%"/z—
+^±>ZùÜéhù-—'r;÷ñhUk_2GåQ¢Ù5ëL_uë9√.cˆ,ˇíëga9ö‰sâÒ.?ˆ}y<%Ävá≠xœ(ˆZπ‚å•òJ)Gâ‡¯¸ˇûü‡}cÈ„ˇœõÏÚsÈÃÈﬁô”’ÈŒ•3íKg$óŒH˛;úëkÛ•síˇôÁ$Fˆ.ùï\:+πtVrÈ¨‰¸’¸“y…¯Ûíht.ùô\:3πtfÚﬂıÃd”ûôÒ&,Œhw»ß¨ ⁄«Ò^HΩRæ{∂ç„ä‚*Ò>6„z|äx€œ;OOã ¥EŒ^Z.:‚(U¸V≈¯#ûÛ6cá<…OO©ñOñ€ÂI≤Òﬁ|„8Óã—«Fjº}„(ä™,R*e \•HÒ(W(U ¸±‹•◊\Ù¨jkú?]x"U%zl∂é£çb´‰˙‹äÎœ≥xû%‚w‹â-cÈ#8Òn¸/Î¯:àb#øªÑßãÔ„^xycQ√èà*D&T˛≈P˘ì˝ÊLµÀ«ü¿˛Ñ¯µ9˛4˛z˘‡'˙-q˘û¢?)Y∂¡w˛@xê?\pπƒÁﬁóﬂuú∆5∏<<»◊Ù·~Oπ`?‹˘B£ù=G∂A´A∂$Á´ﬁt~≥˘a"–
+~˜√ÿœ„y~f8¯a¸ñFòÁèÒGÇï™'ƒ≠ó'xì˘A0x¯Aú‰Ê¡°ÒÉ8¬‚/å‰˙m±B˝)ï¡Ä!ÅÄÉ@?Ä#¸ NÚ0°Ö¿~~ a~ ˚˘#8¬ÒG¯√AáÍ⁄˘CË‰Å¯ø Å1®·A˛≠~áåÕ∑˚&‰{º~?™˘˝ Ë|˘2Z¯>tÚ}† Ø
+ÊŒë!¨Í∑«Á;ºæﬂã.æΩ|/òÏ{¯^…ø∑Bä˛ñ`B¢î€Ã+0Ä~Gj~µ7ôﬂ ∆õ¯V8°ÚæS†ÚæU¶∫û7"N⁄ÈÈOp‰wyºåóâ∏*˜Ú‰CÂÂ<í≠=oËiŒòôÔµÛ2û*Yx
+†r+∑ÛUÌ_a;˙m1¬æ;Çéâ˘'¯m‹Çd®ºã[Çì‘Ñ‹éŸ‹.=©È∑≈Â˜xcyzy*ﬂ
+Ü˝ÚÓ·[É∂ò|o"Ø‡ìëï_œ31*Ø‰Sd˚(ïP˘w˚]ì’¡c¸^)ı1®'ƒ•µ®?.>–k„ã¿†Ûª1»Ôñ {˙]E˘∫¯‰Ò hºyºS}7Úx7™y7Zx7:y7ˆÛnò~'Ú¯ù ÃÊª– w¢áÔƒ~æKñ’ƒ`ÇCFjbp⁄å¸û∆SÉ˘™„OÚÙ~[º∞,5ò4A≤•ˆ«∆Áóú‡mX¡€@@ˇ§‘¸ñc|¶t%ß?5C¥m±˘'¯$#5·Aû"RrÇOÊSd`2˘î‡DU˜™|ä,då~JßDêËu˙ïH∑¯F≤li_ç¥?7⁄ ù2&˝B¥Cﬁ…ÙÆ°ﬂ`?Ω¢cÙ"Ú†“€V–[4Ä®töBhÑJ¬ÂPÈh0Îe5D°˛¨ó≈ƒ|0ó"ú•ÉÓŸ@Õé ì2"@RJæ7õ~H/`2Tzì^¿4®Ùb*Tzûë
+ï)Äó°“3TàÖPÈÈH˚#:.Júû£gQï˙ÉÒ¬=hÕë†Y4OaÙ™g´«È):åt®Ùd–ïÆÜË±~◊45·Ç—A
+3’$Øùf>ˆ1TÍ≈i—"â	ŒÉÙèkÍ ıPè'uû'€ìÎ9ƒÛ≤ÛrÛq-[À’Êiá4ØÉÓÜ	˚i/Ì•ΩòçÓD›	›â∫3®Ã”ΩÁ( ·°ãËïP-–*!P éÍG*°€∞Çn°á:–CùË°.Ù–MP–Cª–Cª—C{–C_ìò z®=¥≠‘ÅVÍD+u°UJ¥“.¥“n¥“¥J	°πï⁄—*%j©µ‘âZÍB≠î®•]®•›®•=®ï¬ﬁZjG≠î®¶TS'™©’R¢öv°öv£öˆ†ZJTS ’‘éj)·°x®ÍÇGJxh<¥⁄èîP jáGJ‰QÚ®y‘Ö<)ëGªêGªëG{ê'%Ú(Ä<jGûî–®uB£.hRB£]–h74⁄MJhÄFÌ–§ÑÉ:‡†N8®)·†]p–n8hRB‰∆AÌpHâ!Í¿ubà∫0$%ÜhÜh7ÜhÜ§ƒ0DÌ¢ù}¸î˜%Í¿)Íƒ)Í¬))räv·Ì∆)⁄ÉSR‰pä⁄q*‚∫Ñ(ÑAÍ¿ ubê∫0(eii7i•¨(≠Aj«†î’©:uBß.ËRBß]–i7t⁄]JËÄNÌ–•D/u†ó:—K]ËïΩ¥Ω¥Ω¥ΩRBm/µ£WJ¸„E˘ßÜnb>+ÉJ]Ï2Ÿv‚CŸv‡¥løÜ>ŸÓ¡!ŸÓ∆Õ≤›Öy≤›	ól€°…6 ’ ÇÍºo
+b‚*Db?B<$=OÖ∞HË$‚∑Tà0z¶*	ññ˝ñ#ñÁ-¶#ñ!%òWò˜õèòü7õéòáÃ§y3(NÆ£Ö`∏Gﬁ;©°B±âP!J$TBXA *§B*†O‚Ì/3Ÿ…ôÏ˘ôÏ»LvœLÊµ—ïLë+ùÜyƒ†2ü'÷µH=ÌZ§ŒsM_§ÜËÓg?ú§]s’;n4óy‹ÆπÍáÆπjükÆz»5WΩŸ5WùÁö´ÊªÊ™πÆπj∂kÆ™J‹L5ƒ|û©ë!èª©”]ã‘,◊"U*êí )—Í†8v®ˇ•8ÿÑûÈ3‘;úûßÜX(8}Öbœß◊´^{”≈S{Ü é’w’{“hû™«‘{,®®!∂!8}ñbWßø™z„ÿ®ä≠â¥´°JüW’µjà≠™ó©!ÊNw	ÓôòŒ≤°≤ÀòÔB∞îöfhr’ÖjàM™Û∑”E‚ôπ“<TŸÚ~ıò˙óÊSò'F=£ﬁ´~®æ´˛Y™oi!Ö’ìŸ!∂÷cWèÁ>§SΩj–k¸P—iu—>£ æS}pÄ˘Xˆ≥Í∑’YÍ›π!+{F˝∫zôzßTTo÷Btÿ3AÌRÛ‘@Óªjõ˙µN]•n»—·†∫^=.ÃÑü˘Ë≥juˆùÍ5ƒ≤ÉÍïŸ!ib•z£ÍQß´Ûµ„"æ(2∆ùó{\D ˘Üˆµ@ùô5æf^à%zfZ>≤ÙXÆ∂îZZúñ©ñ)ñLK≤5…Í∞∆[c≠v´’j∂*V≤¬ö,æ Áﬂ~J6ÀØZôqW$Ï q_ôﬂ3eV¬W†O‡UTµ∫îUÈÉ®™◊ÙOW;CÃærùnrñ2=©
+U5•zëª*d	Ø“Áπ´tKı’æ>∆ÓˆÎEnùÓ1‘¯B,,P∑eàØ»˜1‹ˆıå0ñv€◊˝~§¶Ï(I-IZî8ø≤¸"∑⁄»›=z•é3ı™V˚Ù«3˝zæ ¬ô˛*˝&Ò˙J†∏äÚäçﬂ7†¥RB≈*ÅWZÀ˝˛*˝]…ç‚+ 0]4~ﬂÄµö`Éf-l!ñmπ(Aeâ∆Ô∞«¡%˘\ˆ8…ß0¡◊wZ´(Ô”4…ìúñ<ß≥1ÜgÄ˘‡™(Ôsπ$óSc>¡≈|NMvôHU+ ˚rU…¬‚† ÅT&ïÈ≥GY≤#,Ö#,ÖRg£<‚Ê˜$œàÚ$œ(˜˚›ˇèWS©õıœiÔxQ¸MÇZgES≠≥¢Vﬂª£9UÔ™◊¥æéˆ»+p’÷74ã∂ÆIow6ïÎŒr≠oŒã!ø(»súÂ}x±¢∆◊˜¢ß©<8«3ß¬YWÓÔ/)ˆy«È∫sDóØ¯"Éã¡|BWâ˜"dØ ó]^°À+tïxJ§ÆäM¢Ó´}}Vî˙À÷m?≈ÿì |µY˛“GÎ"Q–≥R;2é*`è!∆Ì◊cù•zú≥TírΩπ^AR IÒ‚ODH©≥2é≤«"$á≥TOtñ"Z¶*ΩpeïûµzùOîäÓ©ªxŒ⁄ƒ%…©®ÿT^±©º≠≠- ?Å∂¿XN¥]Ù
+\Ïjooo∑vwP•œ\]•œ]πŒ◊g±TËû⁄r?™ÙYQÁ◊g≥UÑ¬ÉµÂ~w≈¶rÍ‰fÓ≤ı>èfX®◊‹k!Ò™ËOœÃo9A;—I;≈{ÌŒñØœ¥≥j∂x	Ùœ.4⁄3eLœ _≠ûóû)€l£ı$Ê¶gÊ˜d˜‰ˆÃÎÕÓÕÌùgÖü=îûôØ[ipˆ!éÄª-àÄª-‡á[ò%Ù=úú)˜
+¿Ìˆª€òÒUÿ.âA	l[d‘69º@À†¯∂» mÉÏnèäÄƒµ⁄•ê1à—πç^Åv1îà'Äˇõ@,â
+endstream
+endobj
+17 0 obj
+<</Length 11/Filter/FlateDecode>>
+stream
+xú˚ˇˇ ÓÔ
+endstream
+endobj
+18 0 obj
+<</Length 435/Type/CMap/Filter/FlateDecode/WMode 0>>
+stream
+xúmíMo‚0ÜÔ˘≥KÙ¿∆&°-!µÅH9ÙC•⁄={`#€rúˇ~eèC´’íËÒ˚éÁ#√~ºÊO q^¸‰ÅÉùƒyı“⁄å±ùëcè⁄ø"*Tì:¨¡:#ÙP5ªFw>c¨—Ú2*ú<ˇ≥<„π”_Üê™q¶œ˚Ï¸◊0£à5A£P˚Œ_Åﬂeå˝B7tFØAdåÌµ™Lä≤<ÂÄ¸›y@ßN+ó2¡1‰ÕƒT'}¢¯ñ}kc·:xÏ}2PêKç69 Ú<wÉwWò≈¬Ó@·âî7ß–u˙≥©ÿo‚a¥ˆÇ°H‡Òµäﬂ<4ˇ⁄ˆyj¯vö∫ÒuÙyµò.»ø5Å†•Q8ÿV¢kı≥ÁúoaS◊uΩˇ—≈ä¬é'˘ßu—.∂∞·º€H¢QATïë öhiπ$∫'*â»ôËë¥{¢Q∫Ûâú)ﬂs§'™H{$⁄Q\“ˆ§≠àj¢}$¿˘ÚÅà˙+©NA˝-)ü†˛ ]UöIZÿç€_í£s®}\ç¯K¬¸;ç∑≥∆Ü®¯ƒÂúˆ<–[˝Œ™˚
+endstream
+endobj
+19 0 obj
+<</Length 6107/Filter/FlateDecode>>
+stream
+xúùzxS◊ïÓø˜yÈi=-À£sêeÚDúXAÿ!uê ?∞¡X∆6Ø$æ6I` ‡ÊAò§ΩΩΩÌMö«‰8iÉÌæ<ù$4ù¥IõifÊv¶!ùIhg∆∑∑ô/„ÿ“|˚H6ÇBõÈ±uŒø◊^{ΩˆZkÎ3 #¡°ºyü‹|◊ÆΩ æêâ∂Óù{v¸¥ı Ωø∂≥ÛP€#ˇm†ós∞Ωµ©Â√ÖW@∞ΩΩµ…˘™˛]¿u@a˚ûæÉ˚!}∏æ	†æ3—‹¥pÉ@`…û¶É›\ûn	êW@Ój⁄”˙^≈ÜF Ø0u'z˚RÓ|ˇ»Êª{Zª'˜{MÙ≤0é|Ñ≥Ó‡ª·∆*˛V‰|‹ÿ§.@Í◊⁄˝êÏL} 0˛dGÍ◊¬; ˝œ‘G⁄ÛÉ‘ø„øuÈ2ü?u9K^'g3∏Å84tñEôú0Ñ;!§§Œß>≈sàCH5§æö˙î>À\%ËÓ”Væê◊I/ô =‰	&â‹MNìÂ‰QÄ<7@.ëØìºG⁄qq‡«§ö,!ºC>èo√è(ÈF=û«_ìSÑ«	<Aú§Çt7i /ì'H)YC"$ÇOF…?ë$√+8ÅWO¯SÑ'9ƒMíbr˘i¿Ò!.cäËâÉêE‰ri&á…œ»/©Ö. ì~Ú˘ﬂ‰#rò‹Mz»yﬂ∫-÷∞aÕÌ¡ÂÀ*+ññóïññ‹¥xQëø–∑PëΩ
+Ê{ÊÂªÛ\πNá›fµ‰òMFÉ^'âœQÇb¢∫#—ë|)‡Q%Víœªz¨r~ÎÔvè‚≥UŒqyÆY5ˇöq¡5„s„ªT8’Z_d5ì<Ç⁄U8T‚T¡‘«Tÿ3ãjZv˘j:‘¸HKc£ZÎ[Ì≥ jÌÂ2ÕñåÏ£!‚ã¥Jä1b0F|cI1‘Z_˜©ΩçhÄ÷÷¨°–ôKäU{@•˛ˆŸ•ÜO4™‘Ô[≠(JI±Í∏23öö8ô=’òEé4"™Q%MØ‹°ÜõTúêGä'ÜNéZ±£1`jÒµ4mã™\S¨§xúø¶ΩÅ≤Ü}€eï˜˚Vk7è ˘Âövy»«¬Q”ﬁ®r~ﬂÍXIÒuÈ%≈™>=™LxT{$z¥Fµ‘;|´’;Ó˘7T„ÓêŸphË®¨~e]4{Va˜X,Ê.)ñáj|5Ìç´Käkv≠*)&Ó≤í‚¥Oô ¥4Ób:w51;kv…C'Z5[Oj6h¨5Ìlc¬'ö˛„–PMãØ¶•©ÖiR©?¢Ü¥∂∞à»5j∏iu,C 0lâ™º6”∏:∆6∫§ò‘≠èFòmæ¶’ûÙŒœQ3î∫ı—öŸIôYpßnTÂfY≈˙®O•˛Ï÷∫CÕ+¥¸Qb§§∏Æ˛ *U[}Ú–«PI£oÚﬂØ¶4e(¢ﬂ˙1¨ı’6’˙‰⁄°∆°¶—‘‡ülıç‘’u◊4 *Í£*iMçü®µ'c™µ±ù¨,)ñY‘ÆèV{[lvX?;Ñ*ETëeq›zï˜ﬂôy4…*¢äQ±1Û®·Ü(√—ò'˝dπ4ööXã≈2ac1j]1ûH*
+K–£aÏ()V‘¡u—ÙX∆œKób*md3≥3πŸÃ‡ÏÃ‹ÚFüRR¸M∞30W’Õ˝Z¨.GM˚Jï∏˛»tkz^uD¢úá≤úwD¢‘√1d¯¨rïö()VÜ¨>˘müj®B$:·©ä…Võ
+;€ææ∫u[¢«Tiàfìf˚ƒ5lv‘ë∫ÜU%≈#´F|‰ÿ∫ë09∂aKtÃ
+»«¢/QB#ç´b#Ö‰ÿ∫ËòÑ5*eTFdôò§ı—ó®N„˜åÖÅAmñ◊⁄∏yî@£•ô∆¬ h•iö5≠®HSEÛ(üû	œrÛh’•iÉMªF¿ºÑ∞.¨õ®ôzF#Ω$Ñu„–ºl"f‚§ëıyîéË√û4« Ù$ú∂ÿ∆+™7nâælÇôx¥{,[≈ÆíbuP•ëzï∞ oç*>´*œ{√3dùL^•ÆzPvﬁÚ ∞‘¶ÿ¸äM·1-s”aüBÊ' ÇßéΩGP5)u9¨ò-A#G8ÈI—j≥Eë$Í6PQ$'™È{î“≤¯deô-ÑÍj{®,0äññõbE…ﬁÃ}îli˘ˆ©∑?º]xg™Ñ˚ÈÁÔêª"ﬂb⁄Ç ?-ºÉÏÉ=ıI8◊ú‰Êπ~~éŸl8góÊ?I‹Æ—‘Â≥%∏3á»|nû‡\êé[\’Æ”.ŒÂu%®˘xNY@:i†¨≤l2ê6Àûä«®û¨û¨,ŸÚBÅ•Âä¥˚É¡ÂÀä|E…≠¨pπrù¢$äí¬O∫2˜ÁƒˇrKs›]Õ∂dª{7?˘ªèéÈ≠{7¨†˜}ãTˇ√ë°€"€w‹ß<ˇW;w¸ÕˇxË˜_‹∏˙fÊÕö‘%ÅﬁA)˛aBÍrÿb∂:sN∞∞ÿP‰Ûç¶&^∂ŸÇÏæIo
+ù+ı †rFQï	Â¢")äá xR|éóÚ‹nœ9Gæe4ı…ÀfKPM]~Ÿd	Ê±hLñ‡b∞˙ò∞rW^æAﬂÁÛ-pﬂt\
+[rÉí¥‡∏≈Rm9m·,Âñ≈qB‹«Û ÚXà&Ábò¥ŸCeÒ@•-X¨*ÀB’ìqØPY|2∞áÏ!ãƒ,¨îy-Wû5—∑∞®hëﬂÂ™¨HáTrÃAëºó('∂)‚%hÔÿXrÁ∫á¶¸√Kè-&g›≠w≠ﬂ”±•º!w°£~w}Ìö-ºΩfÙ’wø∫˝/VÊŒ/y§mﬂÓ˛÷Ò‡Ω€∂¥uªâOh´ç‘oE<uI¸ºÃ»GmxÈqΩDﬂ–ëáÑ«Ös“òéﬂ$ƒ§¬Âsºmÿ‡pˆã1As˙1öÛÅ≤I-'ññ#èÔç;¨Pdÿ¨î˜-,§~Á‚‰i%]‰‰…±ﬂí¸ˆè»k_¯ã_y˙ÙÒˇCˇëÏ$gíí_N¶íÁœôlJ˝Úﬂ˚è∑æˇñgSäNanîÜéÎàë´u–‹aùVŒ=@Á—.j∞‰[vœŸSU=π7æ¥ú(6ß(J¢oa)]T¥‹¶ÿ“Êı‰’u/lpl˜Ã≥ßÊ-!ØŸøÔà0>˝¯˝ó^-]˚⁄Êìù‹ÆÈ√èπeÄpFáÑÇpïÜ¡	vâR~@ *g*  P]=Sµ¥‹°ÿ¥ü2°)Yëº%Y!å'ˇTÂÎAÒ º/å√å<‹Œœg6€âƒŸ/Êã	j0ªÕ≥ƒ3!u(.ó=◊Iô
+±UV§ãÌ)˙ø.|¸ï5ªø∑Á±C3€…kâáÆ~B∆;î¸˝„ˇñúy±`1ﬂ5˝^ıó‘ﬂ<œ"( ‚Ja"Ø}E¯ï@ıÇ(Ê.ëxëB†wòú</àîê√ùÄHEû#‡—Œ	î	›≤ˇÅc[—3tÇr4ø,^YÈ.ã˜ÿB°2{(ƒ¢_UUeJG˚_=ZÍfbcôø¥úƒ„ÖÖ(˘ø‰s§Üº9s1ô+å˙>Ôù™e÷ﬁë∫$ﬁA1∆¬+\¯MÂ}Nﬂ2_ÉÔAü∫ÒÇèö£èÚ,Óµn˙ñõ∏›NœpÃ…$Lh=ô î∞awŸ3l2ÉÑ,ÜcKE¨Ë=6[PìQduáMÊ†ª?/O◊_TZî–Ü&sêÙ#ÏpÅ˝÷k¶–ìÅL¡≥~@u†≤,àÔ1ﬂÀ⁄b\´áﬂïóN˝EEã
+-_¶U{ûPƒJ!◊ôÁ „yVÙºO∆‰≈ú@Ì˝MØ$ﬂ|ÄHê|≤h~r£mO„⁄zE>Hn"dﬂS…_ˇ<9îºH>t‹€Z*)YI$ûﬂ˚FÔOˇ%øyK§‹7ø ?¸¿û˙ÌΩDfg‘Y@¯ï0Ê√èˆûÓŒÈ°˚E^ß’Iù√VΩˇåü≥˙√˛∑˝\¬ˇ∂ü˙˝Ûá¡;Ï›∫F™s˜Ûº“o\dLPg¡Ä£»¡u¶J≈L(ù≠¨√ÌÌôåk{Ã7◊)âRÊ8–“7”	|∂Ypñ´ˇ€^lˇÚcª∂ÖzœULˇéºÒ⁄Æv˛“æ∆Ì>∆ˆ‰˝Ò€
+ã∆Nˆº≤\±8π{Ô¨	Øô~vCÌÌkY¶<àaF,/†è$ÙDØ7Ú‡$£ùóD≥ÿEâa¿h2Œ⁄;S••'Î“ìW
+ñ˝<A^#ë…P“ñºEüIQ2UK◊ÕºP<
+›¬8p†$<O7l4√‡vK?üÀ'®C?`pÊ¢Çj-ô
+ŒuÚäœv≈ˇGÈˇ˚èèì'˚I2D.$ÿµm‡∞0˛ØˇÀ©ôã‹ù[Ô®idæ=–.aä¬Ó”¬[«ŸÈ¿iépú0–•„π›4¿TWßcnSû!Ø'W
+„È::óâé˜Ñçíl∂nì¨F”6:ö∫¯≤Ÿ ûó√∑M€÷“∞§“ÔK<®E≤RØƒKÑ“˚Eâ5OâÍ9¬âzª(P"ÈÈ†`∫®4®7Ëgª´l{∫ÓÌ°–Q≠Íµ"á¬ﬁ`ÿÌyö.&œ%7Œ¸"πIü˛9ò™Â¸”ø H*Ëà0iÉ!ıvxπ’§ÇÅ3IÈ.§”Mvù(ÈyA∞JD‚åb¢‘P÷^!uŒ®a∂ŸB∂P»
+ï≈3 ¨'±OU+\ï™4≤.˙-Él¥£=»Ûí—KÀ=c0¶.ávGPoµ;ÇÈéõ®^Œ±ç£©ã·Pé-X®Ëçøïk‡ws-<øåﬁ"¨¶u?A'
+
+aêfFEÇJUÅXc“/` &¬ï˙AAxÒå§sJíéÑ˚ıß^ıé“˚çßë£Å ë309k´∫~Î´Gu•ÓÄp(uk3ÏÌ"èÔ›K‚l‚Å@åSˆK¥÷K˛Ú…_ë˛˘IÚ|Úª…’…T
+…’¬¯ÙèπJˆô™Âûún¡cÄ–°U◊Ü
+VûÚ√V©^:#qê •∞Ù∂ƒ'§∑%*I:núnÿh)fCÇÚ∫Ï∫´¨dßdVóH_n¶¯„ø7££5SÕÂ|Z,å'/¸&˘Û‰{…o≤⁄{
+o”æœ+Dwxï—auÿÌámVßÕfµ:`ú7∑’=ËæËÊ›nŒfá˝!±mé|˚ÄÕ&˜ãEbÇÊ¿è¨Œ5©eIú•F⁄∞Iñ)⁄±ï√¨–“ÚJ;Å”-åΩ•Â9ÆhÎa∂ äõ”á±Ô)˙ˇˆÀcÌ[W∂ÆÛÁo∑˛"âﬂï.ΩmÒ˜Ω±í–ñ˚.„k˛˙‰=#7˚Ú<˚~9πôLlû∑pÊÆ›©ˇ\˘ügµ:HîÂ?æŒuƒ©ÛË©^6Tu,›ÏÜä†ïx9ôîq<'Î∞ÉÌ‚\›ö≥ »I:›3îsR É^ˇ%NJ	5HL¨Çuzìù”IzB©ArÑ.j4ôMsUÃú∑ÕU
+;ﬂÆ>¡µóV-ù‚{µd≤)6¬
+{ò6|¯]ü|8˘~r$˘´‰)a|˙AÓæ©Z˛ÓOø >Ï+J ¬ ˜øÓ∫ôﬂn©˙ûÙ˜§__7Ò{ˆ|◊tqY≤wÊ§yP˜úˆ4„◊æ⁄t?ôy0_Hˆ&˚ÃÉs3≥óSd¢7·iaÇ¬&¨üE\|gÖ(CxJA.‡1Ñ≥Ù9@|O(WÄgƒgqNáTJ∏Ä«ØtäÌú®√K§çåëˇ§∫Öépõπ◊π◊π)~øëNÿ'åäÒ…å_N¸UÿVî!–u‚◊¿i≥∑—ﬂ2ƒs†0Ã£&ßWïg0è≈kX‘¯€3òÒ˜iX“¯ü»`∆ˇåÜu˝ÌfÙã÷ÿEtL‡"=LëCée0á*ÚxÛY<‹‰g,¬E˛5É%Ï†i_Ù–°úÓ»`=ÜË3ÿà6n~õ–Œ›ü¡fÓ7+'µRZó!+>Ü¨¯ô_“hÛX,˝P√¶,~S£Kó3òG°4≠a+ÛW'g0è"]©Ü†∞Î2ò«]õÜùYÚùYÚsô=∫3Ãc±Ó+veÒª≤¯Û5ΩiõÛ5ΩÔjÿ£…I€ÊarÙi˛Ç,9YrºYtoΩê…◊/À`E˙UfﬂU‰Ë”˘S¢—˜3¨Àä≥.+Œ∫,˚uYˆõ≤¯MY¸¶¨¯õf„Ë¡4°∑£í±
+ùhB3vCæä'Å8DÃh≈.t·77\s-_◊g–ìÕ≥}hBZ–Ñ¥‹pÕ5|‹_p#‹wπÔsﬂÂ∆∏qÓ˘≠˚æo@F ±A»h@;Z!„HhVı·∫5JD≥±[ª7°G)d‹éNMÀzt`'⁄—á^m‘ä^¥¢˚—äîﬁ¿"∆∑˚¥qœuÙñhÆÉ´◊n“¥ıf,ì±•®@e÷Íí¨’Ÿ2;4ãõ £OÛÆ≠⁄nÙdv¥ÌœäÃw≈Ú5Ã°’Át†;!c-⁄–Ü4œ≈hΩñylûÂ-õiGBÛ∂≈êQØib>7k~≥j¬>-É“qì±!¨@Ö∂á}Ë∆Jî°¥üRÏπ∆æR4#Å=(”¯˜†eÿÉ>t°	{–™çz±–äŒ/[5À˝Áka≥}ﬁâ.ÕˆY vÕÜfÈ˘ÇÊsË’ˆ≤2z±›ËF':¥Ïî—¶ÈÌ”2:ÜˆA÷r‡dÏ”2ôeG{&Wfπ-Yìﬂ™E∏Uãvã∆«‰3	åíÆU›⁄§◊2œjÕåŸ^1Ê”thÒI[∑C≥ÉÈgvtfvækŒÆÙ
+∂öÂ‘µî∂9äÁ∆≥≤Æfc-ÿáfÙikf+9≠∑xNœµ§ÛÔÄ'ñÅ◊èŸÅåßåªùÿßÌYÀucœ÷tjh1:pd≠6wd‚r=Èi˛‹ÿ^ëﬁ2Wmlo{Á™g∂^ØÁ¡¨ˆ?¥Îñ¨`û§}a6ÏôÎL~⁄◊$p@Û<°ı£?ñ{MWeÛovwØ“xüVmÏŒ‰∑ŒÌÊ¨∆ŸâÓ?ö£È~ﬂïŸô+“g+$ma:òΩ¨#•„\z√zø6ˇÆT|∫$∞SãN7⁄q(ÎLfΩª„3ú›iæŸÒ˚ü·ºg<ŸgÎgzChΩÍL˛Ïßwö3[ãÔg—ÿÖC¸~)_«ﬂ¡ﬂ ◊Ò°≠∫Ü+€O÷A?K<ﬂ]h¬~-YáæÒ™kπz¥sÜy|£5Ws±75ÌJÅ˝Õ^·∫
+∏ÊÔwyˆπÊıπÚ{]ouΩï†ßª¥€5™C∏††3· õﬂô»Û$::ig"wóÀ≥ªk†gﬁ.'„H¥u8sÁ∑u‰zN∑ë∂é¸÷vßG>_~ºz˛‚y¡€JZ€èÏùw.2•úçL)èD¶î·»îr*2•úàL)«#S —»îr$2•<ôRG¶îÅ»î“ôR*~Ú¶…˚„7ﬁGﬂ$ÖoíÁ~DÓ9‘‚}·HÖ˜i’‰}Q≠é®^ãJæq¥¬{ÊpÖ˜Ù·
+Ô‡(yrõ”{nõ”{6nÛ>∑yŸfÛo≥yøudâ˜ïÅ%ﬁSõuﬁõÛº«7ÁyèFÛºG¢yﬁ¢yﬁ¡˛¡Å¡√‹·Õ6Ô¿fõ∑≥Õ˚VÙΩ(mn≤yw4ŸºÒ≠6Ô∂≠6otì›ªyì›[ΩâÑø‘¥—Ïm‹hˆVl›hˆn⁄hˆznŒussóÁ⁄óÂZ*sMπ˙•πby.Wñã“‹‚Àí@Œ‚õ,Eãr
+˝ñÖæY±x˘îwóÚzÊò›˘ÛÃπÆ<≥›·4[¨6ì…úc“å&Q“ô8^0ÅPì≈B™-€-ñ-ºUO÷b-∑V‰<∑Ëºñï:/“y±BÁ≠Øl’^á∫ÜU™É‘°n√*µ2P7™√zµ"PßÍÎ∑FGy8¶VTzlî†AÂèçR4®ˆ»ñ≠—Qíœ¶èhˇ∞1BèúÚdû±X†@=X∑!™vƒ‘*Œƒ¿æÏÌÌÌcœ^‰•çÉk:N¨§˘I 4ËùeK”¥qö÷€;77'*¿håÏûeÌU›jE›ÜUiÜ=Û¥e˝™ˇ–]†5
+endstream
+endobj
+20 0 obj
+<</Length 708/Filter/FlateDecode>>
+stream
+xú≠ñΩè‘0≈˚˝+¶‰äÊ√„∑ 
+$t€ëN≤Hpˇ>Jb;ﬁc˘Z®ú˜î¸ﬁÿñûÚnóEK0ì¿tZ]¬0¯åânCN¿ñ–]ö1õ#i∑ÿ
+í$∏%,  …Ω{lÍZ-ßïRçÑÖEŸÆdŒ=π ©¬™úœÚ™Y'⁄°Õÿbß>ÚJöõIgœ„€ULáá˚√Î√ó˝4Y
+jŒ∞¨ıPüN”0<Lüœé@p¸˙ÙûÄ	é˜„MOoûº%¢∑D\W©´ﬁº;æ<º8ûä"ìõ £3±˛4ê¡.‰ı∏õ„«ËJ®ˇÖ.Èéˆ_Ëzâûê§Xb`FÒ¯’U\¶˜õHuµ∫Êã7·Çíπƒ’ªÈy˛Gy¨#º§|ﬂÔËRÃy?,¯Áw¿p˜¸∫¡7H’ÿ±¿©´Ç§0Ó˛ö¶€˜âñ“I1ÍkÄKua∂ËXv}–0/ ∆≤MËHª˛-êG†,¿≠ThhXZk—–,Y [FéÑYSb±ÓÏ≠∫È°U´°®)[ƒ ‹⁄[uìΩU79i’¢ÅF{ìR/Qæû˙ó∆¸Î„…≈» °©%8Ad,›ò°rYZ∫:eÈÁd‡»n,•Lòîóôª√Ë“úÑ•pvﬁ±ÏòóœZp”Sü≠93d√Ríh∑≤¢⁄∑;5{⁄ù:ﬂ‹ùæÖŒ≠{|t*Wù¨&*`»$
+'0BOMŒ`Çú"¢9¶(Ö!£§îÑ≠éŸTajö≤ÎJ®Ü°Ö∞«é‰å.IkdSS©ÛZ$D,“=vã⁄å;5£Œ57ΩæCÎ÷ŒO‚™√d2t].~-Çıá©YÅJ¿h·°`h≤Ù2S◊0f_o¢æò"FLsZ÷ÚY≥ìxqI(ÎˇKãk∆4å‘_Í;ŸQè7WèË;°¶
+endstream
+endobj
+21 0 obj
+<</Length 647/Filter/FlateDecode>>
+stream
+xú•î=o1Üwˇ
+é…`Ü)Æ∫t(Pƒ[”•jHR†ø8üNíª@Î≈Ñûì»óØdæ ¡ñaÀn»•DQå¬L”·¯ôÄ∞d¯	ÏéF[¡¢†J∆+ÿÉ™¢R®ÆH5£∞¬ñ0îïì{cåâ¶∂¡lÈò•ÇÑ¡¢úáºbXÿZÂ∫úö∂
+ˆ¿ûQ≤[¨à]Qs≤6≤ûXîÌ€zTﬂÛ÷ﬂπ2m~lû6_6/›\«îç›
+ÍjÌ›D0Ω√€Ùº˘∞Ç›Î›Ïû˙Ÿ9Ï_oâËëàkîıˆ€Ó”Ê„Ó¥ 'åú"0:1Î≈ä˘r¡Ôkπ≥e‘1)«Ï‰ueàÚ1˛:˛>/åıüÍé4Ï ≤≥Ç¬–<ΩVœk≠‚'Jà≠F?Ô∫2z…X0‚Ø◊¸/núØ%éY§œµÆl5›≤#ï()UB5÷7'ÁKBuMWø—ìõ&ˆS◊…n5!{X)7ß[/Hª0‘Ó&Ü˚`x∏ˇÑí·w˚”0’Ë8ä=È¸AUPΩ °iJ,πë>»ñı0»*P‘dπîûo‘Áÿ≤ÊÿÊdXDS€≥4C“F˙[@ücÀ∫KÔYiË}û]ˇÌ°p†pê@¬<èÕà9Èäˆ âêMë$XHI¿ë=≥ƒÄòÊ	3∑40F_S5ñÊú9˜ÙÏhÛ—.a%”†te{Œ&û˚IVT—˘dOﬂYï1ç¨ ›¨w’
+¨ùø˜ÎJ˚ù—rÑˆó@M6ÿÇFI∫ä»(I√•±¢¡ˇŒ∫ˇùuÉZ˛fc1\@”:\ÄL§âet”(c˙Œ∫ˇùuˇÎ]≠˘◊∆ﬂ˚UÌˇ9ö„P
+endstream
+endobj
+22 0 obj
+<</Title(UPM V2 bezel labels)/Creator(VectorCraft)/Producer(VectorCraft)/ModDate(D:20261120131316Z)/CreationDate(D:20261119221159Z)>>
+endobj
+23 0 obj
+<</Length 1069/Type/Metadata/Subtype/XML>>
+stream
+<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><dc:title><rdf:Alt><rdf:li xml:lang="x-default">UPM V2 bezel labels</rdf:li></rdf:Alt></dc:title><xmp:CreatorTool>VectorCraft</xmp:CreatorTool><pdf:Producer>VectorCraft</pdf:Producer><xmp:ModifyDate>2026-11-20T13:13:16+00:00</xmp:ModifyDate><xmp:CreateDate>2026-11-19T22:11:59+00:00</xmp:CreateDate><xmpTPg:NPages>2</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>lOW0GWZXu67Sm5TvoImYoA==</xmpMM:InstanceID><xmpMM:DocumentID>lOW0GWZXu67Sm5TvoImYoA==</xmpMM:DocumentID><xmpMM:RenditionClass>default</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
+endstream
+endobj
+24 0 obj
+<</ViewerPreferences<</DisplayDocTitle true>>/Type/Catalog/Pages 1 0 R/Metadata 23 0 R>>
+endobj
+xref
+0 25
+0000000000 65535 f
+0000000016 00000 n
+0000000075 00000 n
+0000000203 00000 n
+0000000336 00000 n
+0000000449 00000 n
+0000000562 00000 n
+0000000695 00000 n
+0000000939 00000 n
+0000001182 00000 n
+0000001315 00000 n
+0000001740 00000 n
+0000001991 00000 n
+0000002168 00000 n
+0000002345 00000 n
+0000002421 00000 n
+0000002864 00000 n
+0000011891 00000 n
+0000011970 00000 n
+0000012492 00000 n
+0000018669 00000 n
+0000019446 00000 n
+0000020162 00000 n
+0000020312 00000 n
+0000021458 00000 n
+trailer
+<</Size 25/Root 24 0 R/Info 22 0 R/ID[(lOW0GWZXu67Sm5TvoImYoA==)(lOW0GWZXu67Sm5TvoImYoA==)]>>
+startxref
+21563
+%%EOF
