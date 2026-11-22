@@ -16,3 +16,9 @@
 (rule "USB-C receptacle: pads to the cut-out and the locating holes"
 	(condition "A.memberOfFootprint('Jonas:Wurth_632723130112')")
 	(constraint edge_clearance (min 0.1mm)))
+(rule "Output header laid flat: pads to the board end"
+	(condition "A.memberOfFootprint('Jonas:Samtec_HTSW-104-08-L-S_EdgeMount')")
+	(constraint edge_clearance (min 0.2mm)))
+(rule "TPS25751D: merged lands within the footprint"
+	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('Jonas:Texas_REF0038A_WQFN-38-2EP_4x6mm_P0.4mm') && B.memberOfFootprint('Jonas:Texas_REF0038A_WQFN-38-2EP_4x6mm_P0.4mm')")
+	(constraint clearance (min 0.09mm)))

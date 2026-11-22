@@ -193,7 +193,7 @@ FAB_NOTES = [
     "8. Outline routed, ±0.2 mm or better. The two 79.5 mm edges slide in card guides: no V-cut,",
     "   and no break-off tabs or tab remains on any edge. The solder mask is open along those",
     "   two edges on purpose: 3 mm strips of bare laminate, both sides.",
-    "9. J1 and J2 need plated slots of 0.4 x 0.9, 0.5 x 1.1 and 0.5 x 1.5 mm and a non-plated slot",
+    "9. J1, J2 and J4 need plated slots of 0.4 x 0.9, 0.5 x 1.1 and 0.5 x 1.5 mm and a non-plated slot",
     "   of 0.65 x 0.95 mm, see the drill table. Do not enlarge or round them without asking.",
 ]
 text("FABRICATION NOTES", FX, FY, size=1.5, th=0.25, bold=True)

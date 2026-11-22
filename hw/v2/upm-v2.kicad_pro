@@ -1166,6 +1166,14 @@
     [
       "3aabc90b-0997-4b06-8ecb-97f65b711ebc",
       "Root"
+    ],
+    [
+      "c8d3710d-e567-4e3a-88e5-444485bd514c",
+      "PD controllers"
+    ],
+    [
+      "ec499067-d8e7-44f3-b73d-27742a7e2881",
+      "MCU"
     ]
   ],
   "text_variables": {},
